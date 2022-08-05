@@ -1,3 +1,17 @@
-body {
-    background-color: black;
+.Header {
+    text-align: center;
+    margin: auto;
+    width: 95%;
+	height: 100px;
+	background-color: #e9e6e6;
+	border-radius: 30px;
+	box-shadow: 0px 20px 20px #5a5a5a;
+}
+.name {
+    padding: 15px;
+    font-size: 250%;
+}
+.importantlinks {
+    padding: 1px;
+    font-size: medium;
 }
