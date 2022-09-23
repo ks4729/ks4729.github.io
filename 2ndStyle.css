@@ -16,8 +16,6 @@ section {
   position: absolute
 }
 
-a {
-}
 
 
 
@@ -47,9 +45,13 @@ h3,
   font-size: 240%
 }
 .lead {
-    font-size: 175%
+    font-size: 175%;
+    text-decoration: none;
 }
-
+h2,
+.h2 {
+  font-size:250%;
+}
 
 .nav {
   margin-bottom: 0;
@@ -72,7 +74,7 @@ h3,
 
 .cover-wrapper {
   overflow: hidden;
-  background: #c88937;
+  background: #798db6e3;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
@@ -173,7 +175,7 @@ h3,
 }
 
 .cover {
-  padding: 0 20px
+  padding: 10px;
 }
 
 .cover .btn-lg {
@@ -191,7 +193,8 @@ h3,
   top: 0
 }
 .cover-wrapper-inner {
-  vertical-align: middle
+  vertical-align: middle;
+  padding-top: 10%;
 }
 .masthead, .mastfoot, .cover-container {
   width: 750px
