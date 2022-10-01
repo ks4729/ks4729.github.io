@@ -5,137 +5,69 @@ spotifyData =
       "album_type" : "ALBUM",
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/00tVTdpEhQQw1bqdu8RCx2"
+          "spotify" : "https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE"
         },
-        "href" : "https://api.spotify.com/v1/artists/00tVTdpEhQQw1bqdu8RCx2",
-        "id" : "00tVTdpEhQQw1bqdu8RCx2",
-        "name" : "Blue Öyster Cult",
+        "href" : "https://api.spotify.com/v1/artists/6P7H3ai06vU1sGvdpBwDmE",
+        "id" : "6P7H3ai06vU1sGvdpBwDmE",
+        "name" : "Steely Dan",
         "type" : "artist",
-        "uri" : "spotify:artist:00tVTdpEhQQw1bqdu8RCx2"
+        "uri" : "spotify:artist:6P7H3ai06vU1sGvdpBwDmE"
       } ],
       "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/7v4kEpVtppoMm80m43lGzt"
+        "spotify" : "https://open.spotify.com/album/5Zxv8bCtxjz11jjypNdkEa"
       },
-      "href" : "https://api.spotify.com/v1/albums/7v4kEpVtppoMm80m43lGzt",
-      "id" : "7v4kEpVtppoMm80m43lGzt",
+      "href" : "https://api.spotify.com/v1/albums/5Zxv8bCtxjz11jjypNdkEa",
+      "id" : "5Zxv8bCtxjz11jjypNdkEa",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b2736895da04b237964b95c2a166",
+        "url" : "https://i.scdn.co/image/ab67616d0000b273e5dd0952c693529017743e39",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e026895da04b237964b95c2a166",
+        "url" : "https://i.scdn.co/image/ab67616d00001e02e5dd0952c693529017743e39",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d000048516895da04b237964b95c2a166",
+        "url" : "https://i.scdn.co/image/ab67616d00004851e5dd0952c693529017743e39",
         "width" : 64
       } ],
-      "name" : "Fire of Unknown Origin",
-      "release_date" : "1981-10-23",
+      "name" : "Aja",
+      "release_date" : "1977-01-01",
       "release_date_precision" : "day",
-      "total_tracks" : 9,
+      "total_tracks" : 7,
       "type" : "album",
-      "uri" : "spotify:album:7v4kEpVtppoMm80m43lGzt"
+      "uri" : "spotify:album:5Zxv8bCtxjz11jjypNdkEa"
     },
     "artists" : [ {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/00tVTdpEhQQw1bqdu8RCx2"
+        "spotify" : "https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE"
       },
-      "href" : "https://api.spotify.com/v1/artists/00tVTdpEhQQw1bqdu8RCx2",
-      "id" : "00tVTdpEhQQw1bqdu8RCx2",
-      "name" : "Blue Öyster Cult",
+      "href" : "https://api.spotify.com/v1/artists/6P7H3ai06vU1sGvdpBwDmE",
+      "id" : "6P7H3ai06vU1sGvdpBwDmE",
+      "name" : "Steely Dan",
       "type" : "artist",
-      "uri" : "spotify:artist:00tVTdpEhQQw1bqdu8RCx2"
+      "uri" : "spotify:artist:6P7H3ai06vU1sGvdpBwDmE"
     } ],
     "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
     "disc_number" : 1,
-    "duration_ms" : 289586,
+    "duration_ms" : 456640,
     "explicit" : false,
     "external_ids" : {
-      "isrc" : "USSM10017653"
+      "isrc" : "USMC17647231"
     },
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/1bPUK3zBMK73QXmCLzqffn"
+      "spotify" : "https://open.spotify.com/track/61AK5ICbKk20h1dFS3mXuu"
     },
-    "href" : "https://api.spotify.com/v1/tracks/1bPUK3zBMK73QXmCLzqffn",
-    "id" : "1bPUK3zBMK73QXmCLzqffn",
+    "href" : "https://api.spotify.com/v1/tracks/61AK5ICbKk20h1dFS3mXuu",
+    "id" : "61AK5ICbKk20h1dFS3mXuu",
     "is_local" : false,
-    "name" : "Veteran of the Psychic Wars",
-    "popularity" : 49,
-    "preview_url" : "https://p.scdn.co/mp3-preview/4041d6e98acf15cbc1b32c02bb51ee00589967cc?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "name" : "Deacon Blues",
+    "popularity" : 58,
+    "preview_url" : "https://p.scdn.co/mp3-preview/73ed11812981ac22076b2245194780aa2df43ba4?cid=70ca5637f7af4167a2e144fc134cea3b",
     "track_number" : 3,
     "type" : "track",
-    "uri" : "spotify:track:1bPUK3zBMK73QXmCLzqffn"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/00tVTdpEhQQw1bqdu8RCx2"
-        },
-        "href" : "https://api.spotify.com/v1/artists/00tVTdpEhQQw1bqdu8RCx2",
-        "id" : "00tVTdpEhQQw1bqdu8RCx2",
-        "name" : "Blue Öyster Cult",
-        "type" : "artist",
-        "uri" : "spotify:artist:00tVTdpEhQQw1bqdu8RCx2"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/6xxUsZyckaV0shjOJ0cVpf"
-      },
-      "href" : "https://api.spotify.com/v1/albums/6xxUsZyckaV0shjOJ0cVpf",
-      "id" : "6xxUsZyckaV0shjOJ0cVpf",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273a63fc9073db1233ea6c7ae74",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02a63fc9073db1233ea6c7ae74",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851a63fc9073db1233ea6c7ae74",
-        "width" : 64
-      } ],
-      "name" : "Blue Oyster Cult",
-      "release_date" : "1972",
-      "release_date_precision" : "year",
-      "total_tracks" : 10,
-      "type" : "album",
-      "uri" : "spotify:album:6xxUsZyckaV0shjOJ0cVpf"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/00tVTdpEhQQw1bqdu8RCx2"
-      },
-      "href" : "https://api.spotify.com/v1/artists/00tVTdpEhQQw1bqdu8RCx2",
-      "id" : "00tVTdpEhQQw1bqdu8RCx2",
-      "name" : "Blue Öyster Cult",
-      "type" : "artist",
-      "uri" : "spotify:artist:00tVTdpEhQQw1bqdu8RCx2"
-    } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 210546,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "USSM19917730"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/60TYdVs6TWIsAJ1MPRdv59"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/60TYdVs6TWIsAJ1MPRdv59",
-    "id" : "60TYdVs6TWIsAJ1MPRdv59",
-    "is_local" : false,
-    "name" : "Then Came the Last Days of May",
-    "popularity" : 60,
-    "preview_url" : "https://p.scdn.co/mp3-preview/615d2d2794b4192a7bc94631e6a95f352346f97d?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 3,
-    "type" : "track",
-    "uri" : "spotify:track:60TYdVs6TWIsAJ1MPRdv59"
+    "uri" : "spotify:track:61AK5ICbKk20h1dFS3mXuu"
   }, {
     "album" : {
       "album_type" : "ALBUM",
@@ -209,69 +141,69 @@ spotifyData =
       "album_type" : "ALBUM",
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+          "spotify" : "https://open.spotify.com/artist/00tVTdpEhQQw1bqdu8RCx2"
         },
-        "href" : "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
-        "id" : "6XYvaoDGE0VmRt83Jss9Sn",
-        "name" : "King Gizzard & The Lizard Wizard",
+        "href" : "https://api.spotify.com/v1/artists/00tVTdpEhQQw1bqdu8RCx2",
+        "id" : "00tVTdpEhQQw1bqdu8RCx2",
+        "name" : "Blue Öyster Cult",
         "type" : "artist",
-        "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+        "uri" : "spotify:artist:00tVTdpEhQQw1bqdu8RCx2"
       } ],
       "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/3XERAydwH2jgraz2ZdHOqC"
+        "spotify" : "https://open.spotify.com/album/6xxUsZyckaV0shjOJ0cVpf"
       },
-      "href" : "https://api.spotify.com/v1/albums/3XERAydwH2jgraz2ZdHOqC",
-      "id" : "3XERAydwH2jgraz2ZdHOqC",
+      "href" : "https://api.spotify.com/v1/albums/6xxUsZyckaV0shjOJ0cVpf",
+      "id" : "6xxUsZyckaV0shjOJ0cVpf",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273f1b9a5a6d844bf145800f359",
+        "url" : "https://i.scdn.co/image/ab67616d0000b273a63fc9073db1233ea6c7ae74",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02f1b9a5a6d844bf145800f359",
+        "url" : "https://i.scdn.co/image/ab67616d00001e02a63fc9073db1233ea6c7ae74",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851f1b9a5a6d844bf145800f359",
+        "url" : "https://i.scdn.co/image/ab67616d00004851a63fc9073db1233ea6c7ae74",
         "width" : 64
       } ],
-      "name" : "12 Bar Bruise",
-      "release_date" : "2012-09-07",
-      "release_date_precision" : "day",
-      "total_tracks" : 12,
+      "name" : "Blue Oyster Cult",
+      "release_date" : "1972",
+      "release_date_precision" : "year",
+      "total_tracks" : 10,
       "type" : "album",
-      "uri" : "spotify:album:3XERAydwH2jgraz2ZdHOqC"
+      "uri" : "spotify:album:6xxUsZyckaV0shjOJ0cVpf"
     },
     "artists" : [ {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+        "spotify" : "https://open.spotify.com/artist/00tVTdpEhQQw1bqdu8RCx2"
       },
-      "href" : "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
-      "id" : "6XYvaoDGE0VmRt83Jss9Sn",
-      "name" : "King Gizzard & The Lizard Wizard",
+      "href" : "https://api.spotify.com/v1/artists/00tVTdpEhQQw1bqdu8RCx2",
+      "id" : "00tVTdpEhQQw1bqdu8RCx2",
+      "name" : "Blue Öyster Cult",
       "type" : "artist",
-      "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+      "uri" : "spotify:artist:00tVTdpEhQQw1bqdu8RCx2"
     } ],
     "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
     "disc_number" : 1,
-    "duration_ms" : 119373,
+    "duration_ms" : 210546,
     "explicit" : false,
     "external_ids" : {
-      "isrc" : "AUW631100229"
+      "isrc" : "USSM19917730"
     },
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/7oYkcWpb76NSCx0eU4yP1a"
+      "spotify" : "https://open.spotify.com/track/60TYdVs6TWIsAJ1MPRdv59"
     },
-    "href" : "https://api.spotify.com/v1/tracks/7oYkcWpb76NSCx0eU4yP1a",
-    "id" : "7oYkcWpb76NSCx0eU4yP1a",
+    "href" : "https://api.spotify.com/v1/tracks/60TYdVs6TWIsAJ1MPRdv59",
+    "id" : "60TYdVs6TWIsAJ1MPRdv59",
     "is_local" : false,
-    "name" : "Footy Footy",
-    "popularity" : 28,
-    "preview_url" : "https://p.scdn.co/mp3-preview/ce50ca0cf2ac10e1d96e3448edfbd19f0a6371c1?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 12,
+    "name" : "Then Came the Last Days of May",
+    "popularity" : 60,
+    "preview_url" : "https://p.scdn.co/mp3-preview/615d2d2794b4192a7bc94631e6a95f352346f97d?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 3,
     "type" : "track",
-    "uri" : "spotify:track:7oYkcWpb76NSCx0eU4yP1a"
+    "uri" : "spotify:track:60TYdVs6TWIsAJ1MPRdv59"
   }, {
     "album" : {
       "album_type" : "ALBUM",
@@ -287,29 +219,29 @@ spotifyData =
       } ],
       "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/5Zxv8bCtxjz11jjypNdkEa"
+        "spotify" : "https://open.spotify.com/album/5fIBtKHWGjbjK9C4i1Z11L"
       },
-      "href" : "https://api.spotify.com/v1/albums/5Zxv8bCtxjz11jjypNdkEa",
-      "id" : "5Zxv8bCtxjz11jjypNdkEa",
+      "href" : "https://api.spotify.com/v1/albums/5fIBtKHWGjbjK9C4i1Z11L",
+      "id" : "5fIBtKHWGjbjK9C4i1Z11L",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273e5dd0952c693529017743e39",
+        "url" : "https://i.scdn.co/image/ab67616d0000b273412d0a3ed734b885c1fed05d",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02e5dd0952c693529017743e39",
+        "url" : "https://i.scdn.co/image/ab67616d00001e02412d0a3ed734b885c1fed05d",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851e5dd0952c693529017743e39",
+        "url" : "https://i.scdn.co/image/ab67616d00004851412d0a3ed734b885c1fed05d",
         "width" : 64
       } ],
-      "name" : "Aja",
-      "release_date" : "1977-01-01",
-      "release_date_precision" : "day",
+      "name" : "Gaucho",
+      "release_date" : "1980",
+      "release_date_precision" : "year",
       "total_tracks" : 7,
       "type" : "album",
-      "uri" : "spotify:album:5Zxv8bCtxjz11jjypNdkEa"
+      "uri" : "spotify:album:5fIBtKHWGjbjK9C4i1Z11L"
     },
     "artists" : [ {
       "external_urls" : {
@@ -323,91 +255,91 @@ spotifyData =
     } ],
     "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
     "disc_number" : 1,
-    "duration_ms" : 240333,
+    "duration_ms" : 448240,
     "explicit" : false,
     "external_ids" : {
-      "isrc" : "USMC17647230"
+      "isrc" : "USMC17947238"
     },
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/2MaLglXXcouyoh03rUROQ2"
+      "spotify" : "https://open.spotify.com/track/3Q2Xxc7y6g4OrYmO53J7Yf"
     },
-    "href" : "https://api.spotify.com/v1/tracks/2MaLglXXcouyoh03rUROQ2",
-    "id" : "2MaLglXXcouyoh03rUROQ2",
+    "href" : "https://api.spotify.com/v1/tracks/3Q2Xxc7y6g4OrYmO53J7Yf",
+    "id" : "3Q2Xxc7y6g4OrYmO53J7Yf",
     "is_local" : false,
-    "name" : "Peg",
-    "popularity" : 63,
-    "preview_url" : "https://p.scdn.co/mp3-preview/f1f32e064f3015ddf8fd02cf2be9019e841bdae8?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 4,
+    "name" : "Glamour Profession",
+    "popularity" : 47,
+    "preview_url" : "https://p.scdn.co/mp3-preview/01f6b7d5adf2652c00b6f5e0b58b055b08844e38?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 3,
     "type" : "track",
-    "uri" : "spotify:track:2MaLglXXcouyoh03rUROQ2"
+    "uri" : "spotify:track:3Q2Xxc7y6g4OrYmO53J7Yf"
   }, {
     "album" : {
       "album_type" : "ALBUM",
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+          "spotify" : "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
         },
-        "href" : "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
-        "id" : "6XYvaoDGE0VmRt83Jss9Sn",
-        "name" : "King Gizzard & The Lizard Wizard",
+        "href" : "https://api.spotify.com/v1/artists/5M52tdBnJaKSvOpJGz8mfZ",
+        "id" : "5M52tdBnJaKSvOpJGz8mfZ",
+        "name" : "Black Sabbath",
         "type" : "artist",
-        "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+        "uri" : "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
       } ],
-      "available_markets" : [ "US" ],
+      "available_markets" : [ "CA", "US" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/3esB4Gl0K2LKCgACUJa3mu"
+        "spotify" : "https://open.spotify.com/album/6r7LZXAVueS5DqdrvXJJK7"
       },
-      "href" : "https://api.spotify.com/v1/albums/3esB4Gl0K2LKCgACUJa3mu",
-      "id" : "3esB4Gl0K2LKCgACUJa3mu",
+      "href" : "https://api.spotify.com/v1/albums/6r7LZXAVueS5DqdrvXJJK7",
+      "id" : "6r7LZXAVueS5DqdrvXJJK7",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273a3c8fa22296801ed0a955d38",
+        "url" : "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02a3c8fa22296801ed0a955d38",
+        "url" : "https://i.scdn.co/image/ab67616d00001e02d5fccf9ce08b6a1e7d12a222",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851a3c8fa22296801ed0a955d38",
+        "url" : "https://i.scdn.co/image/ab67616d00004851d5fccf9ce08b6a1e7d12a222",
         "width" : 64
       } ],
-      "name" : "Polygondwanaland",
-      "release_date" : "2017-11-21",
+      "name" : "Paranoid (Remaster)",
+      "release_date" : "1970-09-18",
       "release_date_precision" : "day",
-      "total_tracks" : 10,
+      "total_tracks" : 8,
       "type" : "album",
-      "uri" : "spotify:album:3esB4Gl0K2LKCgACUJa3mu"
+      "uri" : "spotify:album:6r7LZXAVueS5DqdrvXJJK7"
     },
     "artists" : [ {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
+        "spotify" : "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
       },
-      "href" : "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
-      "id" : "6XYvaoDGE0VmRt83Jss9Sn",
-      "name" : "King Gizzard & The Lizard Wizard",
+      "href" : "https://api.spotify.com/v1/artists/5M52tdBnJaKSvOpJGz8mfZ",
+      "id" : "5M52tdBnJaKSvOpJGz8mfZ",
+      "name" : "Black Sabbath",
       "type" : "artist",
-      "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
+      "uri" : "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
     } ],
-    "available_markets" : [ "US" ],
+    "available_markets" : [ "CA", "US" ],
     "disc_number" : 1,
-    "duration_ms" : 644256,
+    "duration_ms" : 168405,
     "explicit" : false,
     "external_ids" : {
-      "isrc" : "AUTZK1700075"
+      "isrc" : "USWB11304628"
     },
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/4T1168WOWj7Ch7DbbNEFp7"
+      "spotify" : "https://open.spotify.com/track/1Y373MqadDRtclJNdnUXVc"
     },
-    "href" : "https://api.spotify.com/v1/tracks/4T1168WOWj7Ch7DbbNEFp7",
-    "id" : "4T1168WOWj7Ch7DbbNEFp7",
+    "href" : "https://api.spotify.com/v1/tracks/1Y373MqadDRtclJNdnUXVc",
+    "id" : "1Y373MqadDRtclJNdnUXVc",
     "is_local" : false,
-    "name" : "Crumbling Castle",
-    "popularity" : 40,
-    "preview_url" : "https://p.scdn.co/mp3-preview/01c23201c2a456b11a0ae73edb8fd68d849caf5e?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 1,
+    "name" : "Paranoid - 2012 - Remaster",
+    "popularity" : 73,
+    "preview_url" : "https://p.scdn.co/mp3-preview/0d2d6cf0181ba34161c328556eb57e3658299e9e?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 2,
     "type" : "track",
-    "uri" : "spotify:track:4T1168WOWj7Ch7DbbNEFp7"
+    "uri" : "spotify:track:1Y373MqadDRtclJNdnUXVc"
   }, {
     "album" : {
       "album_type" : "ALBUM",
@@ -549,69 +481,137 @@ spotifyData =
       "album_type" : "ALBUM",
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/23rleGXVOVVgTk3xgtmfE4"
+          "spotify" : "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
         },
-        "href" : "https://api.spotify.com/v1/artists/23rleGXVOVVgTk3xgtmfE4",
-        "id" : "23rleGXVOVVgTk3xgtmfE4",
-        "name" : "Gordon Lightfoot",
+        "href" : "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+        "id" : "6XYvaoDGE0VmRt83Jss9Sn",
+        "name" : "King Gizzard & The Lizard Wizard",
         "type" : "artist",
-        "uri" : "spotify:artist:23rleGXVOVVgTk3xgtmfE4"
+        "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
       } ],
       "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/2IPD9EcNjUmsHvqULDMU9Y"
+        "spotify" : "https://open.spotify.com/album/3XERAydwH2jgraz2ZdHOqC"
       },
-      "href" : "https://api.spotify.com/v1/albums/2IPD9EcNjUmsHvqULDMU9Y",
-      "id" : "2IPD9EcNjUmsHvqULDMU9Y",
+      "href" : "https://api.spotify.com/v1/albums/3XERAydwH2jgraz2ZdHOqC",
+      "id" : "3XERAydwH2jgraz2ZdHOqC",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b2738f2b3a1c0559ca6188de574b",
+        "url" : "https://i.scdn.co/image/ab67616d0000b273f1b9a5a6d844bf145800f359",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e028f2b3a1c0559ca6188de574b",
+        "url" : "https://i.scdn.co/image/ab67616d00001e02f1b9a5a6d844bf145800f359",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d000048518f2b3a1c0559ca6188de574b",
+        "url" : "https://i.scdn.co/image/ab67616d00004851f1b9a5a6d844bf145800f359",
         "width" : 64
       } ],
-      "name" : "Sundown",
-      "release_date" : "1974",
-      "release_date_precision" : "year",
-      "total_tracks" : 10,
+      "name" : "12 Bar Bruise",
+      "release_date" : "2012-09-07",
+      "release_date_precision" : "day",
+      "total_tracks" : 12,
       "type" : "album",
-      "uri" : "spotify:album:2IPD9EcNjUmsHvqULDMU9Y"
+      "uri" : "spotify:album:3XERAydwH2jgraz2ZdHOqC"
     },
     "artists" : [ {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/23rleGXVOVVgTk3xgtmfE4"
+        "spotify" : "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn"
       },
-      "href" : "https://api.spotify.com/v1/artists/23rleGXVOVVgTk3xgtmfE4",
-      "id" : "23rleGXVOVVgTk3xgtmfE4",
-      "name" : "Gordon Lightfoot",
+      "href" : "https://api.spotify.com/v1/artists/6XYvaoDGE0VmRt83Jss9Sn",
+      "id" : "6XYvaoDGE0VmRt83Jss9Sn",
+      "name" : "King Gizzard & The Lizard Wizard",
       "type" : "artist",
-      "uri" : "spotify:artist:23rleGXVOVVgTk3xgtmfE4"
+      "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
     } ],
     "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
     "disc_number" : 1,
-    "duration_ms" : 213400,
+    "duration_ms" : 119373,
     "explicit" : false,
     "external_ids" : {
-      "isrc" : "USRE10901178"
+      "isrc" : "AUW631100229"
     },
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/0SjnBEHZVXgCKvOrpvzL2k"
+      "spotify" : "https://open.spotify.com/track/7oYkcWpb76NSCx0eU4yP1a"
     },
-    "href" : "https://api.spotify.com/v1/tracks/0SjnBEHZVXgCKvOrpvzL2k",
-    "id" : "0SjnBEHZVXgCKvOrpvzL2k",
+    "href" : "https://api.spotify.com/v1/tracks/7oYkcWpb76NSCx0eU4yP1a",
+    "id" : "7oYkcWpb76NSCx0eU4yP1a",
     "is_local" : false,
-    "name" : "Sundown",
-    "popularity" : 68,
-    "preview_url" : "https://p.scdn.co/mp3-preview/61bda1952d39b6d551258b7b2eefd8380c7f7f1d?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 7,
+    "name" : "Footy Footy",
+    "popularity" : 29,
+    "preview_url" : "https://p.scdn.co/mp3-preview/ce50ca0cf2ac10e1d96e3448edfbd19f0a6371c1?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 12,
     "type" : "track",
-    "uri" : "spotify:track:0SjnBEHZVXgCKvOrpvzL2k"
+    "uri" : "spotify:track:7oYkcWpb76NSCx0eU4yP1a"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE"
+        },
+        "href" : "https://api.spotify.com/v1/artists/6P7H3ai06vU1sGvdpBwDmE",
+        "id" : "6P7H3ai06vU1sGvdpBwDmE",
+        "name" : "Steely Dan",
+        "type" : "artist",
+        "uri" : "spotify:artist:6P7H3ai06vU1sGvdpBwDmE"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5fIBtKHWGjbjK9C4i1Z11L"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5fIBtKHWGjbjK9C4i1Z11L",
+      "id" : "5fIBtKHWGjbjK9C4i1Z11L",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273412d0a3ed734b885c1fed05d",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02412d0a3ed734b885c1fed05d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851412d0a3ed734b885c1fed05d",
+        "width" : 64
+      } ],
+      "name" : "Gaucho",
+      "release_date" : "1980",
+      "release_date_precision" : "year",
+      "total_tracks" : 7,
+      "type" : "album",
+      "uri" : "spotify:album:5fIBtKHWGjbjK9C4i1Z11L"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE"
+      },
+      "href" : "https://api.spotify.com/v1/artists/6P7H3ai06vU1sGvdpBwDmE",
+      "id" : "6P7H3ai06vU1sGvdpBwDmE",
+      "name" : "Steely Dan",
+      "type" : "artist",
+      "uri" : "spotify:artist:6P7H3ai06vU1sGvdpBwDmE"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 307400,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "USMC17947237"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/1tjK9HhmpEfk0ijyIKsoUk"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/1tjK9HhmpEfk0ijyIKsoUk",
+    "id" : "1tjK9HhmpEfk0ijyIKsoUk",
+    "is_local" : false,
+    "name" : "Hey Nineteen",
+    "popularity" : 63,
+    "preview_url" : "https://p.scdn.co/mp3-preview/0cc62f78e6b4d47982874a98d41234915e8c0727?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 2,
+    "type" : "track",
+    "uri" : "spotify:track:1tjK9HhmpEfk0ijyIKsoUk"
   }, {
     "album" : {
       "album_type" : "ALBUM",
@@ -625,31 +625,31 @@ spotifyData =
         "type" : "artist",
         "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
       } ],
-      "available_markets" : [ "AE", "AR", "BH", "BO", "BR", "CA", "CL", "CO", "CR", "DO", "DZ", "EC", "EG", "GT", "HK", "HN", "ID", "IN", "JO", "JP", "KW", "LB", "MA", "MX", "MY", "NI", "OM", "PA", "PE", "PH", "PS", "PY", "QA", "SA", "SG", "SV", "TH", "TN", "TW", "US", "UY", "VN", "ZA" ],
+      "available_markets" : [ "MX", "US" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/1rb4cp4F59Tk1UOPHuP3H0"
+        "spotify" : "https://open.spotify.com/album/6U3BrGxxVCFa7Z6GBXiY7M"
       },
-      "href" : "https://api.spotify.com/v1/albums/1rb4cp4F59Tk1UOPHuP3H0",
-      "id" : "1rb4cp4F59Tk1UOPHuP3H0",
+      "href" : "https://api.spotify.com/v1/albums/6U3BrGxxVCFa7Z6GBXiY7M",
+      "id" : "6U3BrGxxVCFa7Z6GBXiY7M",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b2731f631e15738459f688e78166",
+        "url" : "https://i.scdn.co/image/ab67616d0000b273adc69b1d4a910591f079fb0b",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e021f631e15738459f688e78166",
+        "url" : "https://i.scdn.co/image/ab67616d00001e02adc69b1d4a910591f079fb0b",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d000048511f631e15738459f688e78166",
+        "url" : "https://i.scdn.co/image/ab67616d00004851adc69b1d4a910591f079fb0b",
         "width" : 64
       } ],
-      "name" : "I'm In Your Mind Fuzz",
-      "release_date" : "2014-10-31",
+      "name" : "Fishing for Fishies",
+      "release_date" : "2019-04-26",
       "release_date_precision" : "day",
-      "total_tracks" : 10,
+      "total_tracks" : 9,
       "type" : "album",
-      "uri" : "spotify:album:1rb4cp4F59Tk1UOPHuP3H0"
+      "uri" : "spotify:album:6U3BrGxxVCFa7Z6GBXiY7M"
     },
     "artists" : [ {
       "external_urls" : {
@@ -661,25 +661,25 @@ spotifyData =
       "type" : "artist",
       "uri" : "spotify:artist:6XYvaoDGE0VmRt83Jss9Sn"
     } ],
-    "available_markets" : [ "AE", "AR", "BH", "BO", "BR", "CA", "CL", "CO", "CR", "DO", "DZ", "EC", "EG", "GT", "HK", "HN", "ID", "IN", "JO", "JP", "KW", "LB", "MA", "MX", "MY", "NI", "OM", "PA", "PE", "PH", "PS", "PY", "QA", "SA", "SG", "SV", "TH", "TN", "TW", "US", "UY", "VN", "ZA" ],
+    "available_markets" : [ "MX", "US" ],
     "disc_number" : 1,
-    "duration_ms" : 495215,
+    "duration_ms" : 281920,
     "explicit" : false,
     "external_ids" : {
-      "isrc" : "AUDJ01401131"
+      "isrc" : "AUTZK1800036"
     },
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/7cbfx6Aavq0XK1vCOFgx7K"
+      "spotify" : "https://open.spotify.com/track/4FAxHgFeG23Igvx8jvBUtB"
     },
-    "href" : "https://api.spotify.com/v1/tracks/7cbfx6Aavq0XK1vCOFgx7K",
-    "id" : "7cbfx6Aavq0XK1vCOFgx7K",
+    "href" : "https://api.spotify.com/v1/tracks/4FAxHgFeG23Igvx8jvBUtB",
+    "id" : "4FAxHgFeG23Igvx8jvBUtB",
     "is_local" : false,
-    "name" : "Her and I (Slow Jam 2)",
-    "popularity" : 42,
-    "preview_url" : "https://p.scdn.co/mp3-preview/fca7a09e39d1b0e3c1a06c965fe75077c7bce209?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 10,
+    "name" : "Boogieman Sam",
+    "popularity" : 37,
+    "preview_url" : "https://p.scdn.co/mp3-preview/c25016e55d4f0b9365286f5252d3d0054433680c?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 2,
     "type" : "track",
-    "uri" : "spotify:track:7cbfx6Aavq0XK1vCOFgx7K"
+    "uri" : "spotify:track:4FAxHgFeG23Igvx8jvBUtB"
   } ],
   "total" : 50,
   "limit" : 10,
