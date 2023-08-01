@@ -5,6 +5,482 @@ spotifyData =
       "album_type" : "ALBUM",
       "artists" : [ {
         "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+        "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+        "name" : "Nektar",
+        "type" : "artist",
+        "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4D5ZGmqizLUdRUZkHZi0Tn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4D5ZGmqizLUdRUZkHZi0Tn",
+      "id" : "4D5ZGmqizLUdRUZkHZi0Tn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273fc07c655d35117aa65e9e490",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02fc07c655d35117aa65e9e490",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851fc07c655d35117aa65e9e490",
+        "width" : 64
+      } ],
+      "name" : "Recycled",
+      "release_date" : "1975-01-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:4D5ZGmqizLUdRUZkHZi0Tn"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+      "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+      "name" : "Nektar",
+      "type" : "artist",
+      "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 166840,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "DEA437500029"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/3t4JcaR9unke19hm6yMYcs"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/3t4JcaR9unke19hm6yMYcs",
+    "id" : "3t4JcaR9unke19hm6yMYcs",
+    "is_local" : false,
+    "name" : "Recycle",
+    "popularity" : 27,
+    "preview_url" : "https://p.scdn.co/mp3-preview/7597bf588f24ca74651cb5ae0a2adf29d699eb10?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:3t4JcaR9unke19hm6yMYcs"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+        "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+        "name" : "Nektar",
+        "type" : "artist",
+        "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4D5ZGmqizLUdRUZkHZi0Tn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4D5ZGmqizLUdRUZkHZi0Tn",
+      "id" : "4D5ZGmqizLUdRUZkHZi0Tn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273fc07c655d35117aa65e9e490",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02fc07c655d35117aa65e9e490",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851fc07c655d35117aa65e9e490",
+        "width" : 64
+      } ],
+      "name" : "Recycled",
+      "release_date" : "1975-01-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:4D5ZGmqizLUdRUZkHZi0Tn"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+      "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+      "name" : "Nektar",
+      "type" : "artist",
+      "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 183133,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "DEA437500032"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/6anRh2fzULoTindTbhmVMz"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/6anRh2fzULoTindTbhmVMz",
+    "id" : "6anRh2fzULoTindTbhmVMz",
+    "is_local" : false,
+    "name" : "Automation Horrorscope",
+    "popularity" : 13,
+    "preview_url" : "https://p.scdn.co/mp3-preview/8cea60be6cb59ca95909ababd352cf4f8bd36640?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 4,
+    "type" : "track",
+    "uri" : "spotify:track:6anRh2fzULoTindTbhmVMz"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+        "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+        "name" : "Nektar",
+        "type" : "artist",
+        "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4D5ZGmqizLUdRUZkHZi0Tn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4D5ZGmqizLUdRUZkHZi0Tn",
+      "id" : "4D5ZGmqizLUdRUZkHZi0Tn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273fc07c655d35117aa65e9e490",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02fc07c655d35117aa65e9e490",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851fc07c655d35117aa65e9e490",
+        "width" : 64
+      } ],
+      "name" : "Recycled",
+      "release_date" : "1975-01-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:4D5ZGmqizLUdRUZkHZi0Tn"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+      "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+      "name" : "Nektar",
+      "type" : "artist",
+      "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 130893,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "DEA437500030"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/5fJmArkvi0T1HNQbgRnQYA"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/5fJmArkvi0T1HNQbgRnQYA",
+    "id" : "5fJmArkvi0T1HNQbgRnQYA",
+    "is_local" : false,
+    "name" : "Cybernetic Consumption",
+    "popularity" : 24,
+    "preview_url" : "https://p.scdn.co/mp3-preview/76b55ed568998dfb6bce7b6ad2ef672ac6d1028f?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 2,
+    "type" : "track",
+    "uri" : "spotify:track:5fJmArkvi0T1HNQbgRnQYA"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+        "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+        "name" : "Nektar",
+        "type" : "artist",
+        "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4D5ZGmqizLUdRUZkHZi0Tn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4D5ZGmqizLUdRUZkHZi0Tn",
+      "id" : "4D5ZGmqizLUdRUZkHZi0Tn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273fc07c655d35117aa65e9e490",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02fc07c655d35117aa65e9e490",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851fc07c655d35117aa65e9e490",
+        "width" : 64
+      } ],
+      "name" : "Recycled",
+      "release_date" : "1975-01-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:4D5ZGmqizLUdRUZkHZi0Tn"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+      "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+      "name" : "Nektar",
+      "type" : "artist",
+      "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 112000,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "DEA437500031"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/3QyFF3c2hef9jpDCLotDuj"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/3QyFF3c2hef9jpDCLotDuj",
+    "id" : "3QyFF3c2hef9jpDCLotDuj",
+    "is_local" : false,
+    "name" : "Recycle Countdown",
+    "popularity" : 19,
+    "preview_url" : "https://p.scdn.co/mp3-preview/3d055bf0fa0ddf8db24ec48e02d10245015ee272?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 3,
+    "type" : "track",
+    "uri" : "spotify:track:3QyFF3c2hef9jpDCLotDuj"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1hrQ50kU6hMQBVLatqUqnO"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1hrQ50kU6hMQBVLatqUqnO",
+        "id" : "1hrQ50kU6hMQBVLatqUqnO",
+        "name" : "Gentle Giant",
+        "type" : "artist",
+        "uri" : "spotify:artist:1hrQ50kU6hMQBVLatqUqnO"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3XIbbhpEsyqlxggk7qJNcH"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3XIbbhpEsyqlxggk7qJNcH",
+      "id" : "3XIbbhpEsyqlxggk7qJNcH",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273fa681191d90da6c33771d1e3",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02fa681191d90da6c33771d1e3",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851fa681191d90da6c33771d1e3",
+        "width" : 64
+      } ],
+      "name" : "In a Glass House",
+      "release_date" : "1973-07-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 8,
+      "type" : "album",
+      "uri" : "spotify:album:3XIbbhpEsyqlxggk7qJNcH"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1hrQ50kU6hMQBVLatqUqnO"
+      },
+      "href" : "https://api.spotify.com/v1/artists/1hrQ50kU6hMQBVLatqUqnO",
+      "id" : "1hrQ50kU6hMQBVLatqUqnO",
+      "name" : "Gentle Giant",
+      "type" : "artist",
+      "uri" : "spotify:artist:1hrQ50kU6hMQBVLatqUqnO"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 444560,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "US4D40400305"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/0HVwchuPqsJsKYxGkHj0Lt"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/0HVwchuPqsJsKYxGkHj0Lt",
+    "id" : "0HVwchuPqsJsKYxGkHj0Lt",
+    "is_local" : false,
+    "name" : "The Runaway",
+    "popularity" : 29,
+    "preview_url" : "https://p.scdn.co/mp3-preview/73e96b259f1720261da394e45b812e3cd04aee2b?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:0HVwchuPqsJsKYxGkHj0Lt"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+        "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+        "name" : "Nektar",
+        "type" : "artist",
+        "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4D5ZGmqizLUdRUZkHZi0Tn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4D5ZGmqizLUdRUZkHZi0Tn",
+      "id" : "4D5ZGmqizLUdRUZkHZi0Tn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273fc07c655d35117aa65e9e490",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02fc07c655d35117aa65e9e490",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851fc07c655d35117aa65e9e490",
+        "width" : 64
+      } ],
+      "name" : "Recycled",
+      "release_date" : "1975-01-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:4D5ZGmqizLUdRUZkHZi0Tn"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+      "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+      "name" : "Nektar",
+      "type" : "artist",
+      "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 111306,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "DEA437500033"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/61Wa2XLddqDUqAhEOjtyZo"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/61Wa2XLddqDUqAhEOjtyZo",
+    "id" : "61Wa2XLddqDUqAhEOjtyZo",
+    "is_local" : false,
+    "name" : "Recycling",
+    "popularity" : 15,
+    "preview_url" : "https://p.scdn.co/mp3-preview/b3b3474046f5b3055b3f02f2490fb1ff74e4e417?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 5,
+    "type" : "track",
+    "uri" : "spotify:track:61Wa2XLddqDUqAhEOjtyZo"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+        },
+        "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+        "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+        "name" : "Nektar",
+        "type" : "artist",
+        "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4D5ZGmqizLUdRUZkHZi0Tn"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4D5ZGmqizLUdRUZkHZi0Tn",
+      "id" : "4D5ZGmqizLUdRUZkHZi0Tn",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ab67616d0000b273fc07c655d35117aa65e9e490",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab67616d00001e02fc07c655d35117aa65e9e490",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/ab67616d00004851fc07c655d35117aa65e9e490",
+        "width" : 64
+      } ],
+      "name" : "Recycled",
+      "release_date" : "1975-01-01",
+      "release_date_precision" : "day",
+      "total_tracks" : 11,
+      "type" : "album",
+      "uri" : "spotify:album:4D5ZGmqizLUdRUZkHZi0Tn"
+    },
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0n2Uel3CvQrmMsYLEfpO3s"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0n2Uel3CvQrmMsYLEfpO3s",
+      "id" : "0n2Uel3CvQrmMsYLEfpO3s",
+      "name" : "Nektar",
+      "type" : "artist",
+      "uri" : "spotify:artist:0n2Uel3CvQrmMsYLEfpO3s"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "disc_number" : 1,
+    "duration_ms" : 79133,
+    "explicit" : false,
+    "external_ids" : {
+      "isrc" : "DEA437500034"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/1X1azKASjcNNl0M49EPNFm"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/1X1azKASjcNNl0M49EPNFm",
+    "id" : "1X1azKASjcNNl0M49EPNFm",
+    "is_local" : false,
+    "name" : "Flight To Reality",
+    "popularity" : 15,
+    "preview_url" : "https://p.scdn.co/mp3-preview/de73a774c0819af667275a79aa17f76ca9c4a5ab?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 6,
+    "type" : "track",
+    "uri" : "spotify:track:1X1azKASjcNNl0M49EPNFm"
+  }, {
+    "album" : {
+      "album_type" : "ALBUM",
+      "artists" : [ {
+        "external_urls" : {
           "spotify" : "https://open.spotify.com/artist/7AC976RDJzL2asmZuz7qil"
         },
         "href" : "https://api.spotify.com/v1/artists/7AC976RDJzL2asmZuz7qil",
@@ -73,409 +549,78 @@ spotifyData =
       "album_type" : "ALBUM",
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
+          "spotify" : "https://open.spotify.com/artist/1hrQ50kU6hMQBVLatqUqnO"
         },
-        "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-        "id" : "02frazNrWgZCxUEf4UTfHt",
-        "name" : "Van Der Graaf Generator",
+        "href" : "https://api.spotify.com/v1/artists/1hrQ50kU6hMQBVLatqUqnO",
+        "id" : "1hrQ50kU6hMQBVLatqUqnO",
+        "name" : "Gentle Giant",
         "type" : "artist",
-        "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
+        "uri" : "spotify:artist:1hrQ50kU6hMQBVLatqUqnO"
       } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "available_markets" : [ "CA", "US" ],
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/1n6mujGDmusUYHfuFtZZvJ"
+        "spotify" : "https://open.spotify.com/album/77JV3at9mjHWzD3Iub1zSh"
       },
-      "href" : "https://api.spotify.com/v1/albums/1n6mujGDmusUYHfuFtZZvJ",
-      "id" : "1n6mujGDmusUYHfuFtZZvJ",
+      "href" : "https://api.spotify.com/v1/albums/77JV3at9mjHWzD3Iub1zSh",
+      "id" : "77JV3at9mjHWzD3Iub1zSh",
       "images" : [ {
         "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273fda0f0767cd77b621ad43902",
+        "url" : "https://i.scdn.co/image/ab67616d0000b2739cd7023a9acc01fcd6298b9c",
         "width" : 640
       }, {
         "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02fda0f0767cd77b621ad43902",
+        "url" : "https://i.scdn.co/image/ab67616d00001e029cd7023a9acc01fcd6298b9c",
         "width" : 300
       }, {
         "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851fda0f0767cd77b621ad43902",
+        "url" : "https://i.scdn.co/image/ab67616d000048519cd7023a9acc01fcd6298b9c",
         "width" : 64
       } ],
-      "name" : "H To He, Who Am The Only One (Deluxe)",
-      "release_date" : "1970-12-05",
+      "name" : "Octopus (Steven Wilson Mix)",
+      "release_date" : "2015-10-30",
       "release_date_precision" : "day",
-      "total_tracks" : 14,
+      "total_tracks" : 9,
       "type" : "album",
-      "uri" : "spotify:album:1n6mujGDmusUYHfuFtZZvJ"
+      "uri" : "spotify:album:77JV3at9mjHWzD3Iub1zSh"
     },
     "artists" : [ {
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
+        "spotify" : "https://open.spotify.com/artist/1hrQ50kU6hMQBVLatqUqnO"
       },
-      "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-      "id" : "02frazNrWgZCxUEf4UTfHt",
-      "name" : "Van Der Graaf Generator",
+      "href" : "https://api.spotify.com/v1/artists/1hrQ50kU6hMQBVLatqUqnO",
+      "id" : "1hrQ50kU6hMQBVLatqUqnO",
+      "name" : "Gentle Giant",
       "type" : "artist",
-      "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
+      "uri" : "spotify:artist:1hrQ50kU6hMQBVLatqUqnO"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4X42BfuhWCAZ2swiVze9O0"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4X42BfuhWCAZ2swiVze9O0",
+      "id" : "4X42BfuhWCAZ2swiVze9O0",
+      "name" : "Steven Wilson",
+      "type" : "artist",
+      "uri" : "spotify:artist:4X42BfuhWCAZ2swiVze9O0"
     } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "available_markets" : [ "CA", "US" ],
     "disc_number" : 1,
-    "duration_ms" : 493933,
+    "duration_ms" : 215298,
     "explicit" : false,
     "external_ids" : {
-      "isrc" : "GBUM72001502"
+      "isrc" : "GB5XG1400036"
     },
     "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/4c2bcuubf8hZwu7hwTaIqi"
+      "spotify" : "https://open.spotify.com/track/0xHCAgID79j7uckSm63yu4"
     },
-    "href" : "https://api.spotify.com/v1/tracks/4c2bcuubf8hZwu7hwTaIqi",
-    "id" : "4c2bcuubf8hZwu7hwTaIqi",
+    "href" : "https://api.spotify.com/v1/tracks/0xHCAgID79j7uckSm63yu4",
+    "id" : "0xHCAgID79j7uckSm63yu4",
     "is_local" : false,
-    "name" : "The Emperor In His War Room - Remastered 2021",
-    "popularity" : 22,
-    "preview_url" : "https://p.scdn.co/mp3-preview/30f4fed7f7e48604595c8680559eab45a6028f08?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 3,
+    "name" : "Think of Me with Kindness - Steven Wilson Mix",
+    "popularity" : 27,
+    "preview_url" : "https://p.scdn.co/mp3-preview/4c4b8a5e4524b2ab3f74f3a59ab2d8b6c180b5ef?cid=70ca5637f7af4167a2e144fc134cea3b",
+    "track_number" : 7,
     "type" : "track",
-    "uri" : "spotify:track:4c2bcuubf8hZwu7hwTaIqi"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/1vrCjYU0zXNXvLobueUTvQ"
-        },
-        "href" : "https://api.spotify.com/v1/artists/1vrCjYU0zXNXvLobueUTvQ",
-        "id" : "1vrCjYU0zXNXvLobueUTvQ",
-        "name" : "Mars Red Sky",
-        "type" : "artist",
-        "uri" : "spotify:artist:1vrCjYU0zXNXvLobueUTvQ"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/6nEiLfcZ4nJ5SW0o3VibX0"
-      },
-      "href" : "https://api.spotify.com/v1/albums/6nEiLfcZ4nJ5SW0o3VibX0",
-      "id" : "6nEiLfcZ4nJ5SW0o3VibX0",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b2738d761dcaa5ed0dac2103c5da",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e028d761dcaa5ed0dac2103c5da",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d000048518d761dcaa5ed0dac2103c5da",
-        "width" : 64
-      } ],
-      "name" : "Mars Red Sky",
-      "release_date" : "2011-04-11",
-      "release_date_precision" : "day",
-      "total_tracks" : 8,
-      "type" : "album",
-      "uri" : "spotify:album:6nEiLfcZ4nJ5SW0o3VibX0"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/1vrCjYU0zXNXvLobueUTvQ"
-      },
-      "href" : "https://api.spotify.com/v1/artists/1vrCjYU0zXNXvLobueUTvQ",
-      "id" : "1vrCjYU0zXNXvLobueUTvQ",
-      "name" : "Mars Red Sky",
-      "type" : "artist",
-      "uri" : "spotify:artist:1vrCjYU0zXNXvLobueUTvQ"
-    } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 254706,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "FRQ031313006"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/5fJJiZO6keKy9O6iGoVac7"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/5fJJiZO6keKy9O6iGoVac7",
-    "id" : "5fJJiZO6keKy9O6iGoVac7",
-    "is_local" : false,
-    "name" : "Saddle Point",
-    "popularity" : 40,
-    "preview_url" : "https://p.scdn.co/mp3-preview/a5be62c5ee7223de6360de78028729f2d5ac61cd?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 6,
-    "type" : "track",
-    "uri" : "spotify:track:5fJJiZO6keKy9O6iGoVac7"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
-        },
-        "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-        "id" : "02frazNrWgZCxUEf4UTfHt",
-        "name" : "Van Der Graaf Generator",
-        "type" : "artist",
-        "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/1n6mujGDmusUYHfuFtZZvJ"
-      },
-      "href" : "https://api.spotify.com/v1/albums/1n6mujGDmusUYHfuFtZZvJ",
-      "id" : "1n6mujGDmusUYHfuFtZZvJ",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273fda0f0767cd77b621ad43902",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02fda0f0767cd77b621ad43902",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851fda0f0767cd77b621ad43902",
-        "width" : 64
-      } ],
-      "name" : "H To He, Who Am The Only One (Deluxe)",
-      "release_date" : "1970-12-05",
-      "release_date_precision" : "day",
-      "total_tracks" : 14,
-      "type" : "album",
-      "uri" : "spotify:album:1n6mujGDmusUYHfuFtZZvJ"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
-      },
-      "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-      "id" : "02frazNrWgZCxUEf4UTfHt",
-      "name" : "Van Der Graaf Generator",
-      "type" : "artist",
-      "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
-    } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 391693,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "GBUM72001501"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/2sfYPaNXqBH5wmz1d1uVVg"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/2sfYPaNXqBH5wmz1d1uVVg",
-    "id" : "2sfYPaNXqBH5wmz1d1uVVg",
-    "is_local" : false,
-    "name" : "House With No Door - Remastered 2021",
-    "popularity" : 32,
-    "preview_url" : "https://p.scdn.co/mp3-preview/703b32b1be584ad20ac683353d92352c93094eb2?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 2,
-    "type" : "track",
-    "uri" : "spotify:track:2sfYPaNXqBH5wmz1d1uVVg"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
-        },
-        "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-        "id" : "02frazNrWgZCxUEf4UTfHt",
-        "name" : "Van Der Graaf Generator",
-        "type" : "artist",
-        "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/1n6mujGDmusUYHfuFtZZvJ"
-      },
-      "href" : "https://api.spotify.com/v1/albums/1n6mujGDmusUYHfuFtZZvJ",
-      "id" : "1n6mujGDmusUYHfuFtZZvJ",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273fda0f0767cd77b621ad43902",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02fda0f0767cd77b621ad43902",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851fda0f0767cd77b621ad43902",
-        "width" : 64
-      } ],
-      "name" : "H To He, Who Am The Only One (Deluxe)",
-      "release_date" : "1970-12-05",
-      "release_date_precision" : "day",
-      "total_tracks" : 14,
-      "type" : "album",
-      "uri" : "spotify:album:1n6mujGDmusUYHfuFtZZvJ"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
-      },
-      "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-      "id" : "02frazNrWgZCxUEf4UTfHt",
-      "name" : "Van Der Graaf Generator",
-      "type" : "artist",
-      "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
-    } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 671040,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "GBUM72001503"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/7f79xfhkMFJrDt42o9BfyD"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/7f79xfhkMFJrDt42o9BfyD",
-    "id" : "7f79xfhkMFJrDt42o9BfyD",
-    "is_local" : false,
-    "name" : "Lost - Remastered 2021",
-    "popularity" : 19,
-    "preview_url" : "https://p.scdn.co/mp3-preview/0618d0c5038478d074f6852187338212227af113?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 4,
-    "type" : "track",
-    "uri" : "spotify:track:7f79xfhkMFJrDt42o9BfyD"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
-        },
-        "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-        "id" : "02frazNrWgZCxUEf4UTfHt",
-        "name" : "Van Der Graaf Generator",
-        "type" : "artist",
-        "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/1n6mujGDmusUYHfuFtZZvJ"
-      },
-      "href" : "https://api.spotify.com/v1/albums/1n6mujGDmusUYHfuFtZZvJ",
-      "id" : "1n6mujGDmusUYHfuFtZZvJ",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273fda0f0767cd77b621ad43902",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02fda0f0767cd77b621ad43902",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851fda0f0767cd77b621ad43902",
-        "width" : 64
-      } ],
-      "name" : "H To He, Who Am The Only One (Deluxe)",
-      "release_date" : "1970-12-05",
-      "release_date_precision" : "day",
-      "total_tracks" : 14,
-      "type" : "album",
-      "uri" : "spotify:album:1n6mujGDmusUYHfuFtZZvJ"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/02frazNrWgZCxUEf4UTfHt"
-      },
-      "href" : "https://api.spotify.com/v1/artists/02frazNrWgZCxUEf4UTfHt",
-      "id" : "02frazNrWgZCxUEf4UTfHt",
-      "name" : "Van Der Graaf Generator",
-      "type" : "artist",
-      "uri" : "spotify:artist:02frazNrWgZCxUEf4UTfHt"
-    } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 498040,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "GBUM72001500"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/0TMKja08JBRFwkdpl9IpI3"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/0TMKja08JBRFwkdpl9IpI3",
-    "id" : "0TMKja08JBRFwkdpl9IpI3",
-    "is_local" : false,
-    "name" : "Killer - Remastered 2021",
-    "popularity" : 33,
-    "preview_url" : "https://p.scdn.co/mp3-preview/30b1194f57c5bd2d959b0072f5062bccde80747f?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 1,
-    "type" : "track",
-    "uri" : "spotify:track:0TMKja08JBRFwkdpl9IpI3"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy"
-        },
-        "href" : "https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy",
-        "id" : "0oSGxfWSnnOXhD2fKuz2Gy",
-        "name" : "David Bowie",
-        "type" : "artist",
-        "uri" : "spotify:artist:0oSGxfWSnnOXhD2fKuz2Gy"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/6fQElzBNTiEMGdIeY0hy5l"
-      },
-      "href" : "https://api.spotify.com/v1/albums/6fQElzBNTiEMGdIeY0hy5l",
-      "id" : "6fQElzBNTiEMGdIeY0hy5l",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273e464904cc3fed2b40fc55120",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02e464904cc3fed2b40fc55120",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851e464904cc3fed2b40fc55120",
-        "width" : 64
-      } ],
-      "name" : "Hunky Dory (2015 Remaster)",
-      "release_date" : "1971-12-17",
-      "release_date_precision" : "day",
-      "total_tracks" : 11,
-      "type" : "album",
-      "uri" : "spotify:album:6fQElzBNTiEMGdIeY0hy5l"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy"
-      },
-      "href" : "https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy",
-      "id" : "0oSGxfWSnnOXhD2fKuz2Gy",
-      "name" : "David Bowie",
-      "type" : "artist",
-      "uri" : "spotify:artist:0oSGxfWSnnOXhD2fKuz2Gy"
-    } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 329586,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "USJT11500138"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/0sJXU4olfMR2SvULxarpoW"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/0sJXU4olfMR2SvULxarpoW",
-    "id" : "0sJXU4olfMR2SvULxarpoW",
-    "is_local" : false,
-    "name" : "The Bewlay Brothers - 2015 Remaster",
-    "popularity" : 47,
-    "preview_url" : "https://p.scdn.co/mp3-preview/9baea4c92edc0fc8a8ced6e32301a8dbad1a4eb1?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 11,
-    "type" : "track",
-    "uri" : "spotify:track:0sJXU4olfMR2SvULxarpoW"
+    "uri" : "spotify:track:0xHCAgID79j7uckSm63yu4"
   }, {
     "album" : {
       "album_type" : "ALBUM",
@@ -539,152 +684,16 @@ spotifyData =
     "id" : "0slD4yP9v2Sfi4YNjUcfSC",
     "is_local" : false,
     "name" : "Peace Like a River",
-    "popularity" : 48,
+    "popularity" : 47,
     "preview_url" : "https://p.scdn.co/mp3-preview/9a86810727abf943693f1fd1bf8fd6ab47af5399?cid=70ca5637f7af4167a2e144fc134cea3b",
     "track_number" : 7,
     "type" : "track",
     "uri" : "spotify:track:0slD4yP9v2Sfi4YNjUcfSC"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
-        },
-        "href" : "https://api.spotify.com/v1/artists/0k17h0D3J5VfsdmQ1iZtE9",
-        "id" : "0k17h0D3J5VfsdmQ1iZtE9",
-        "name" : "Pink Floyd",
-        "type" : "artist",
-        "uri" : "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9"
-      } ],
-      "available_markets" : [ "AE", "AR", "AU", "BH", "BO", "BR", "CA", "CL", "CO", "CR", "DO", "EC", "EG", "GT", "HK", "HN", "ID", "IL", "IN", "JO", "JP", "KW", "LB", "MX", "MY", "NI", "NZ", "OM", "PA", "PE", "PH", "PS", "PY", "QA", "SA", "SG", "SV", "TH", "TN", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4"
-      },
-      "href" : "https://api.spotify.com/v1/albums/3b4E89rxzZQ9zkhgKpj8N4",
-      "id" : "3b4E89rxzZQ9zkhgKpj8N4",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b273810168d54f85d48f07389237",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e02810168d54f85d48f07389237",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d00004851810168d54f85d48f07389237",
-        "width" : 64
-      } ],
-      "name" : "Animals",
-      "release_date" : "1977-01-23",
-      "release_date_precision" : "day",
-      "total_tracks" : 5,
-      "type" : "album",
-      "uri" : "spotify:album:3b4E89rxzZQ9zkhgKpj8N4"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
-      },
-      "href" : "https://api.spotify.com/v1/artists/0k17h0D3J5VfsdmQ1iZtE9",
-      "id" : "0k17h0D3J5VfsdmQ1iZtE9",
-      "name" : "Pink Floyd",
-      "type" : "artist",
-      "uri" : "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9"
-    } ],
-    "available_markets" : [ "AE", "AR", "AU", "BH", "BO", "BR", "CA", "CL", "CO", "CR", "DO", "EC", "EG", "GT", "HK", "HN", "ID", "IL", "IN", "JO", "JP", "KW", "LB", "MX", "MY", "NI", "NZ", "OM", "PA", "PE", "PH", "PS", "PY", "QA", "SA", "SG", "SV", "TH", "TN", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 1025280,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "GBN9Y1100091"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/2jvuMDqBK04WvCYYz5qjvG"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/2jvuMDqBK04WvCYYz5qjvG",
-    "id" : "2jvuMDqBK04WvCYYz5qjvG",
-    "is_local" : false,
-    "name" : "Dogs",
-    "popularity" : 63,
-    "preview_url" : "https://p.scdn.co/mp3-preview/845adceb7502f0920a67ad853d2d05b43a867f8c?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 2,
-    "type" : "track",
-    "uri" : "spotify:track:2jvuMDqBK04WvCYYz5qjvG"
-  }, {
-    "album" : {
-      "album_type" : "ALBUM",
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/4WquJweZPIK9qcfVFhTKvf"
-        },
-        "href" : "https://api.spotify.com/v1/artists/4WquJweZPIK9qcfVFhTKvf",
-        "id" : "4WquJweZPIK9qcfVFhTKvf",
-        "name" : "MC5",
-        "type" : "artist",
-        "uri" : "spotify:artist:4WquJweZPIK9qcfVFhTKvf"
-      } ],
-      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/album/0kT4F2mSpvTk3stwiaEStp"
-      },
-      "href" : "https://api.spotify.com/v1/albums/0kT4F2mSpvTk3stwiaEStp",
-      "id" : "0kT4F2mSpvTk3stwiaEStp",
-      "images" : [ {
-        "height" : 640,
-        "url" : "https://i.scdn.co/image/ab67616d0000b27336f68306b0c5babcd4235e45",
-        "width" : 640
-      }, {
-        "height" : 300,
-        "url" : "https://i.scdn.co/image/ab67616d00001e0236f68306b0c5babcd4235e45",
-        "width" : 300
-      }, {
-        "height" : 64,
-        "url" : "https://i.scdn.co/image/ab67616d0000485136f68306b0c5babcd4235e45",
-        "width" : 64
-      } ],
-      "name" : "Kick Out The Jams (Live)",
-      "release_date" : "1969",
-      "release_date_precision" : "year",
-      "total_tracks" : 8,
-      "type" : "album",
-      "uri" : "spotify:album:0kT4F2mSpvTk3stwiaEStp"
-    },
-    "artists" : [ {
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/artist/4WquJweZPIK9qcfVFhTKvf"
-      },
-      "href" : "https://api.spotify.com/v1/artists/4WquJweZPIK9qcfVFhTKvf",
-      "id" : "4WquJweZPIK9qcfVFhTKvf",
-      "name" : "MC5",
-      "type" : "artist",
-      "uri" : "spotify:artist:4WquJweZPIK9qcfVFhTKvf"
-    } ],
-    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
-    "disc_number" : 1,
-    "duration_ms" : 255026,
-    "explicit" : false,
-    "external_ids" : {
-      "isrc" : "USEE10000531"
-    },
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/track/3aDBS1seuDPUuvC7rpdxe0"
-    },
-    "href" : "https://api.spotify.com/v1/tracks/3aDBS1seuDPUuvC7rpdxe0",
-    "id" : "3aDBS1seuDPUuvC7rpdxe0",
-    "is_local" : false,
-    "name" : "Ramblin' Rose",
-    "popularity" : 32,
-    "preview_url" : "https://p.scdn.co/mp3-preview/5bf8e726633792174cf9521f9231fabc6f0672ac?cid=70ca5637f7af4167a2e144fc134cea3b",
-    "track_number" : 1,
-    "type" : "track",
-    "uri" : "spotify:track:3aDBS1seuDPUuvC7rpdxe0"
   } ],
   "total" : 50,
   "limit" : 10,
   "offset" : 0,
   "href" : "https://api.spotify.com/v1/me/top/tracks?limit=10&offset=0&time_range=short_term",
-  "previous" : null,
-  "next" : "https://api.spotify.com/v1/me/top/tracks?limit=10&offset=10&time_range=short_term"
+  "next" : "https://api.spotify.com/v1/me/top/tracks?limit=10&offset=10&time_range=short_term",
+  "previous" : null
 }
