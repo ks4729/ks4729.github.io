@@ -1,2 +1,1 @@
-# ks4729.github.io
-Kushaal's Personal Website
+my website. is good, I hope
