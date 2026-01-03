@@ -21,17 +21,7 @@
     <div class="project-container">
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
-            <nav class="sidebar-nav">
-                <h3>Contents</h3>
-                <ul>
-                    <li><a href="#overview" class="active">Overview</a></li>
-                    <li><a href="#problem">Problem Statement</a></li>
-                    <li><a href="#approach">Approach</a></li>
-                    <li><a href="#implementation">Implementation</a></li>
-                    <li><a href="#results">Results</a></li>
-                    <li><a href="#future">Future Work</a></li>
-                </ul>
-            </nav>
+            
 
             <div class="sidebar-info">
                 <h4>Project Info</h4>
@@ -45,40 +35,47 @@
                 </div>
                 <div class="info-item">
                     <span class="label">Organization:</span>
-                    <span class="value">UT Austin</span>
+                    <span class="value">Nanoscale Design and Manufacturing Lab</span>
                 </div>
                 <div class="info-item">
                     <span class="label">Technologies:</span>
-                    <span class="value">Python, MATLAB, Gradient Descent, Computer Vision</span>
+                    <span class="value">Pytorch, Matlab, Linux Cluster, </span>
                 </div>
             </div>
         </aside>
 
         <!-- Main Content -->
         <main class="project-content">
-            <h1>Volumetric 3D Printing Using Holographic Methods</h1>
-            <p class="lead">Developing advanced computational methods for volumetric photopolymerization using holographic light patterns</p>
+            <h1>Simulation for developing novel volumetric 3D printing</h1>
+            <p class="lead">Paper: A Physics-based Machine Learning Algorithm for Accurate Vat Photopolymerization </p>
+            <p class="lead">Patent: Triggered Luminescence and Machine Learning for Optimized Resin Printing </p>
 
             <section id="overview">
                 <h2>Overview</h2>
-                <p>This project explores the cutting edge of additive manufacturing through volumetric 3D printing. Unlike traditional layer-by-layer approaches, volumetric printing uses holographic light patterns to cure an entire 3D object simultaneously within a vat of photopolymer resin.</p>
+                <p>This project explores the cutting edge of additive manufacturing through volumetric 3D printing. Unlike traditional layer-by-layer approaches, volumetric printing uses a hologram to cure an entire 3D object simultaneously within a vat of photopolymer resin.</p>
                 
                 <div class="image-grid">
                     <figure>
                         <img src="img/Holography.jpg" alt="Holographic setup">
-                        <figcaption>Holographic projection system setup</figcaption>
+                        <figcaption>An example hologram</figcaption>
                     </figure>
-                    <!-- Add more images as needed -->
+                    <figure>
+                        <img src="img/lossTopography.png" alt="Holographic setup">
+                        <figcaption>Loss topography visualized along PCA axis</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/LossVsTime.png" alt="Holographic setup">
+                        <figcaption>Magnitude of Loss over epoch</figcaption>
+                    </figure>
                 </div>
             </section>
 
             <section id="problem">
                 <h2>Problem Statement</h2>
-                <p>Traditional 3D printing methods are limited by their sequential, layer-by-layer approach, which is time-consuming and can introduce structural weaknesses at layer boundaries. Volumetric printing promises to overcome these limitations, but presents significant computational challenges:</p>
+                <p>Traditional 3D printing methods are limited by their sequential, layer-by-layer approach, which is time-consuming and can introduce structural weaknesses at layer boundaries. Volumetric printing promises to overcome these limitations, but presents significant computational challenges. </p>
                 <ul>
                     <li>Calculating optimal holographic patterns for arbitrary 3D geometries</li>
-                    <li>Managing dissolved oxygen diffusion that inhibits photopolymerization</li>
-                    <li>Optimizing light intensity distribution throughout the volume</li>
+                    <li>Optimizing light intensity distribution throughout a 4000 by 4000 by 20 tensor</li>
                     <li>Handling highly non-linear photochemical reactions</li>
                 </ul>
             </section>
@@ -86,10 +83,11 @@
             <section id="approach">
                 <h2>Technical Approach</h2>
                 <h3>Gradient Descent Optimization</h3>
-                <p>The core challenge is determining the holographic pattern that will produce the desired light intensity distribution. This is a highly intractable inverse problem. We developed a gradient descent algorithm that:</p>
+                <p>The core challenge is determining the holographic pattern that will produce a light intensity distribution that will produce the correct geometry. This is a highly intractable, non convex, inverse problem. I implemented a gradient descent algorithm that:</p>
                 <ul>
                     <li>Models the forward propagation of light through the hologram</li>
-                    <li>Computes the error between desired and achieved intensity distributions</li>
+                    <li>Simulates the conversion of intensity to cured geometry</li>
+                    <li>Computes the error between desired and achieved geometries</li>
                     <li>Iteratively adjusts the holographic pattern to minimize this error</li>
                 </ul>
 
@@ -98,67 +96,50 @@
 
                 <div class="callout">
                     <h4>Key Innovation</h4>
-                    <p>Our approach combines physical modeling of light propagation with machine learning-inspired optimization techniques, achieving significantly faster convergence than traditional methods.</p>
+                    <p>Our approach combines physical modeling of light propagation with machine learning optimization techniques, allowing for well formed solutions to an optimization problem.</p>
                 </div>
             </section>
 
             <section id="implementation">
                 <h2>Implementation Details</h2>
-                <p>The system was implemented in Python with MATLAB for numerical analysis. Key components include:</p>
+                <p>The system was implemented in Python. I ran on Frontera, a linux supercomputer from Texas Advanced Computing Center, using CUDA and parallel processing on GPUs. I also had to be mindful of memory and computational complexity. </p>
                 
                 <h3>Software Stack</h3>
                 <ul>
                     <li><strong>Python:</strong> Primary development language for optimization algorithms</li>
-                    <li><strong>NumPy/SciPy:</strong> Numerical computations and optimization</li>
-                    <li><strong>MATLAB:</strong> Complex optical simulations and visualization</li>
-                    <li><strong>Computer Vision:</strong> Real-time monitoring of polymerization process</li>
+                    <li><strong>NumPy/Pytorch:</strong> Numerical computations and optimization</li>
+                    <li><strong>MATLAB:</strong> Data Analysis</li>
                 </ul>
-
-                <div class="code-block">
-                    <pre><code># Simplified gradient descent pseudocode
-for iteration in range(max_iterations):
-    # Forward propagate through hologram
-    achieved_intensity = propagate(hologram_pattern)
-    
-    # Calculate error
-    error = target_intensity - achieved_intensity
-    
-    # Update hologram pattern
-    gradient = compute_gradient(error)
-    hologram_pattern -= learning_rate * gradient</code></pre>
-                </div>
             </section>
 
             <section id="results">
                 <h2>Results & Achievements</h2>
-                <p>Our research has yielded several significant improvements:</p>
+                <p>My code has yielded several significant improvements:</p>
                 
                 <div class="results-grid">
                     <div class="result-card">
-                        <h4>50% Faster</h4>
-                        <p>Convergence speed compared to baseline methods</p>
+                        <h4>Orders of magnitude faster</h4>
+                        <p>Convergence speed compared to earlier models</p>
                     </div>
                     <div class="result-card">
                         <h4>95% Accuracy</h4>
                         <p>Match between target and achieved geometry</p>
                     </div>
                     <div class="result-card">
-                        <h4>10x Resolution</h4>
+                        <h4>0.5um Resolution</h4>
                         <p>Improved feature resolution in printed objects</p>
                     </div>
                 </div>
 
-                <p>These improvements demonstrate the potential for volumetric printing to become a viable alternative to traditional additive manufacturing methods.</p>
+                <p>My work on this project resulted in a patent and a conference paper, for which I am the second author. I established the code base that is going to be used for the rest of this project, transitioned the team to using Git, and presented my findings at weekly meetings across 3 labs and 2 states. </p>
             </section>
 
             <section id="future">
                 <h2>Future Directions</h2>
                 <p>Ongoing work focuses on several key areas:</p>
                 <ul>
-                    <li>Real-time adaptive optimization during the printing process</li>
-                    <li>Integration with multi-material systems</li>
-                    <li>Scaling to larger print volumes</li>
-                    <li>Development of specialized photopolymer formulations</li>
+                    <li>Extending to multiple materials</li>
+                    <li>Scaling to larger print volumes and smaller pixel sizes</li>
                 </ul>
             </section>
 
