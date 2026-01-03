@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Soft Orange Color Scheme */
+    --primary: #ff8c42;
+    --primary-light: #ffa366;
+    --primary-dark: #e67a2e;
+    --accent: #ff6b35;
+    --text-primary: #2d2d2d;
+    --text-secondary: #666666;
+    --border: #e0e0e0;
+    --bg: #ffffff;
+    --bg-secondary: #fff8f3;
+    --bg-hover: #ffe8d9;
+    --shadow: rgba(255, 140, 66, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-primary);
+    line-height: 1.6;
+    background: var(--bg);
+}
+
+/* Header */
+header {
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: width 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Hero Section */
+.hero {
+    padding: 5rem 0 4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    color: var(--text-secondary);
+}
+
+.contact-info a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: var(--primary-dark);
+}
+
+.bio {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    color: var(--text-secondary);
+}
+
+/* Section Headers */
+section {
+    padding: 3rem 0;
+    border-top: 1px solid var(--border);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+/* Dropdown Items */
+.dropdown-item {
+    margin-bottom: 1rem;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.dropdown-item:hover {
+    border-color: var(--primary-light);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.dropdown-header {
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    transition: background 0.3s ease;
+}
+
+.dropdown-header:hover {
+    background: var(--bg-hover);
+}
+
+.dropdown-title h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.role {
+    font-size: 0.95rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.dropdown-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+.date {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.arrow {
+    color: var(--primary);
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding: 0 1.5rem;
+}
+
+.dropdown-item.active .dropdown-content {
+    max-height: 2000px;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.dropdown-content p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 6px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    text-decoration: none;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    display: block;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px var(--shadow);
+    border-color: var(--primary-light);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    padding: 1rem 1.5rem 0.5rem;
+}
+
+.project-card p {
+    color: var(--text-secondary);
+    padding: 0 1.5rem 1.5rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border);
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+    }
+
+    .hero {
+        padding: 3rem 0 2rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .dropdown-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dropdown-meta {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Animation for page load */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    animation: fadeIn 0.6s ease-out;
+}

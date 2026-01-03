@@ -1,0 +1,160 @@
+// Sidebar navigation active state based on scroll
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.sidebar-nav a');
+
+function updateActiveSection() {
+    const scrollPosition = window.scrollY + 150;
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.offsetHeight;
+        const sectionId = section.getAttribute('id');
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${sectionId}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+    });
+}
+
+window.addEventListener('scroll', updateActiveSection);
+window.addEventListener('load', updateActiveSection);
+
+// Smooth scroll for sidebar links
+navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        
+        if (targetSection) {
+            const headerOffset = 100;
+            const elementPosition = targetSection.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Image zoom functionality
+const images = document.querySelectorAll('.image-grid img, .project-content > img');
+
+images.forEach(img => {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', () => {
+        // Create modal overlay
+        const modal = document.createElement('div');
+        modal.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            cursor: pointer;
+        `;
+
+        // Create zoomed image
+        const zoomedImg = document.createElement('img');
+        zoomedImg.src = img.src;
+        zoomedImg.alt = img.alt;
+        zoomedImg.style.cssText = `
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        `;
+
+        modal.appendChild(zoomedImg);
+        document.body.appendChild(modal);
+
+        // Close on click
+        modal.addEventListener('click', () => {
+            document.body.removeChild(modal);
+        });
+
+        // Close on ESC key
+        const closeOnEsc = (e) => {
+            if (e.key === 'Escape' && document.body.contains(modal)) {
+                document.body.removeChild(modal);
+                document.removeEventListener('keydown', closeOnEsc);
+            }
+        };
+        document.addEventListener('keydown', closeOnEsc);
+    });
+});
+
+// Animate elements on scroll
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+        }
+    });
+}, observerOptions);
+
+// Observe sections for fade-in effect
+document.querySelectorAll('section').forEach(section => {
+    section.style.opacity = '0';
+    section.style.transform = 'translateY(20px)';
+    section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(section);
+});
+
+// Print functionality (optional)
+function printProject() {
+    window.print();
+}
+
+// Copy link functionality (optional)
+function copyLink() {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+        alert('Link copied to clipboard!');
+    });
+}
+
+// Progress bar for reading
+function updateProgressBar() {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    
+    let progressBar = document.getElementById('progress-bar');
+    if (!progressBar) {
+        progressBar = document.createElement('div');
+        progressBar.id = 'progress-bar';
+        progressBar.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: var(--primary);
+            z-index: 1000;
+            transition: width 0.1s ease;
+        `;
+        document.body.appendChild(progressBar);
+    }
+    
+    progressBar.style.width = scrolled + '%';
+}
+
+window.addEventListener('scroll', updateProgressBar);
+window.addEventListener('load', updateProgressBar);
