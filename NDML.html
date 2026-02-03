@@ -12,8 +12,8 @@
             <a href="index.html" class="logo">← Kushaal Singh</a>
             <ul>
                 <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#experience">Experience</a></li>
                 <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#interests">Reading</a></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="info-item">
                     <span class="label">Technologies:</span>
-                    <span class="value">Pytorch, Matlab, Linux Cluster, </span>
+                    <span class="value">Pytorch, Matlab, Linux Cluster Supercomputer</span>
                 </div>
             </div>
         </aside>
@@ -47,12 +47,35 @@
         <!-- Main Content -->
         <main class="project-content">
             <h1>Simulation for developing novel volumetric 3D printing</h1>
-            <p class="lead">Paper: A Physics-based Machine Learning Algorithm for Accurate Vat Photopolymerization </p>
-            <p class="lead">Patent: Triggered Luminescence and Machine Learning for Optimized Resin Printing </p>
+            <p>Paper: A Physics-based Machine Learning Algorithm for Accurate Vat Photopolymerization </p>
+            <p >Patent: Triggered Luminescence and Machine Learning for Optimized Resin Printing </p>
+
+
+            <section id="approach">
+                <h2>Project</h2>
+                <h3>Gradient Descent Optimization</h3>
+                <p>I worked on the inverse problem of holographic fabrication: determining a phase-only hologram that generates a prescribed three-dimensional light intensity distribution. Because the governing wave-propagation PDEs are forward-only, the inverse mapping is highly nonconvex and analytically intractable. </p>
+                    
+                <p>I addressed this by building a gradient-based optimization pipeline inspired by modern machine learning. Using automatic differentiation, I optimized hologram parameters directly through the physical propagation model. I applied techniques such as loss-landscape visualization, hyperparameter tuning, and stability analysis to ensure reliable convergence. The resulting system consistently produced physically realizable holograms that closely matched target geometries, demonstrating a practical computational approach to inverse holographic design. </p>
+                <div class="results-grid">
+                    <div class="result-card">
+                        <h4>Orders of magnitude faster</h4>
+                        <p>Convergence speed compared to earlier models</p>
+                    </div>
+                    <div class="result-card">
+                        <h4>95% Accuracy</h4>
+                        <p>Match between target and achieved geometry</p>
+                    </div>
+                    <div class="result-card">
+                        <h4>0.5um Resolution</h4>
+                        <p>Improved feature resolution in printed objects</p>
+                    </div>
+                </div>
+            </section>
 
             <section id="overview">
-                <h2>Overview</h2>
-                <p>This project explores the cutting edge of additive manufacturing through volumetric 3D printing. Unlike traditional layer-by-layer approaches, volumetric printing uses a hologram to cure an entire 3D object simultaneously within a vat of photopolymer resin.</p>
+                <h2>Images</h2>
+                <p></p>
                 
                 <div class="image-grid">
                     <figure>
@@ -70,78 +93,6 @@
                 </div>
             </section>
 
-            <section id="problem">
-                <h2>Problem Statement</h2>
-                <p>Traditional 3D printing methods are limited by their sequential, layer-by-layer approach, which is time-consuming and can introduce structural weaknesses at layer boundaries. Volumetric printing promises to overcome these limitations, but presents significant computational challenges. </p>
-                <ul>
-                    <li>Calculating optimal holographic patterns for arbitrary 3D geometries</li>
-                    <li>Optimizing light intensity distribution throughout a 4000 by 4000 by 20 tensor</li>
-                    <li>Handling highly non-linear photochemical reactions</li>
-                </ul>
-            </section>
-
-            <section id="approach">
-                <h2>Technical Approach</h2>
-                <h3>Gradient Descent Optimization</h3>
-                <p>The core challenge is determining the holographic pattern that will produce a light intensity distribution that will produce the correct geometry. This is a highly intractable, non convex, inverse problem. I implemented a gradient descent algorithm that:</p>
-                <ul>
-                    <li>Models the forward propagation of light through the hologram</li>
-                    <li>Simulates the conversion of intensity to cured geometry</li>
-                    <li>Computes the error between desired and achieved geometries</li>
-                    <li>Iteratively adjusts the holographic pattern to minimize this error</li>
-                </ul>
-
-                <h3>Oxygen Diffusion Modeling</h3>
-                <p>Dissolved oxygen acts as a polymerization inhibitor. We implemented a diffusion model to predict and control oxygen distribution during the printing process, enabling more precise control over the curing reaction.</p>
-
-                <div class="callout">
-                    <h4>Key Innovation</h4>
-                    <p>Our approach combines physical modeling of light propagation with machine learning optimization techniques, allowing for well formed solutions to an optimization problem.</p>
-                </div>
-            </section>
-
-            <section id="implementation">
-                <h2>Implementation Details</h2>
-                <p>The system was implemented in Python. I ran on Frontera, a linux supercomputer from Texas Advanced Computing Center, using CUDA and parallel processing on GPUs. I also had to be mindful of memory and computational complexity. </p>
-                
-                <h3>Software Stack</h3>
-                <ul>
-                    <li><strong>Python:</strong> Primary development language for optimization algorithms</li>
-                    <li><strong>NumPy/Pytorch:</strong> Numerical computations and optimization</li>
-                    <li><strong>MATLAB:</strong> Data Analysis</li>
-                </ul>
-            </section>
-
-            <section id="results">
-                <h2>Results & Achievements</h2>
-                <p>My code has yielded several significant improvements:</p>
-                
-                <div class="results-grid">
-                    <div class="result-card">
-                        <h4>Orders of magnitude faster</h4>
-                        <p>Convergence speed compared to earlier models</p>
-                    </div>
-                    <div class="result-card">
-                        <h4>95% Accuracy</h4>
-                        <p>Match between target and achieved geometry</p>
-                    </div>
-                    <div class="result-card">
-                        <h4>0.5um Resolution</h4>
-                        <p>Improved feature resolution in printed objects</p>
-                    </div>
-                </div>
-
-                <p>My work on this project resulted in a patent and a conference paper, for which I am the second author. I established the code base that is going to be used for the rest of this project, transitioned the team to using Git, and presented my findings at weekly meetings across 3 labs and 2 states. </p>
-            </section>
-
-            <section id="future">
-                <h2>Future Directions</h2>
-                <p>Ongoing work focuses on several key areas:</p>
-                <ul>
-                    <li>Extending to multiple materials</li>
-                    <li>Scaling to larger print volumes and smaller pixel sizes</li>
-                </ul>
-            </section>
 
             <div class="project-footer">
                 <a href="index.html#projects" class="back-link">← Back to Projects</a>

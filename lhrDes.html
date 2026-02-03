@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LHR Part Design - Kushaal Singh</title>
+    <link rel="stylesheet" href="project-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">← Kushaal Singh</a>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#interests">Reading</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="project-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-info">
+                <h4>Project Info</h4>
+                <div class="info-item">
+                    <span class="label">Team:</span>
+                    <span class="value">Longhorn Racing Electric</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Role:</span>
+                    <span class="value">Drivetrain Lead</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Technologies:</span>
+                    <span class="value">SolidWorks, Ansys, MATLAB, Classical Laminate Theory</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="project-content">
+            <h1>Drivetrain Component Design</h1>
+            <p class="lead">Design and analysis of high-performance drivetrain components for Formula SAE competition vehicle</p>
+
+            <section id="overview">
+                <h2>Design Portfolio</h2>
+                <p>Responsible for the design, analysis, and optimization of critical drivetrain components for Longhorn Racing's FSAE vehicle. Work focused on lightweight, high-strength solutions using advanced materials and computational analysis.</p>
+                
+                <div class="image-grid">
+                    <figure>
+                        <img src="img/DiffMountFEA.jpg">
+                        <figcaption>Stress Plot of the Differential Mounts</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/MountFEA.jpg">
+                        <figcaption>Stress Plot of the Motor Mounts</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/FullAssembly.png">
+                        <figcaption>Full Assembly</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/Drawing.png">
+                        <figcaption>Engineering Drawing</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/PartsSpread.jpg">
+                        <figcaption>Shiny Parts</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/RearAssembly.jpg">
+                        <figcaption>Real Life Assembly</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section id="carbon-fiber">
+                <h2>Carbon Fiber Halfshafts</h2>
+                <p>Designed custom carbon fiber composite halfshafts to reduce rotating mass while maintaining torsional stiffness requirements. Used Classical Lamination Theory (CLT) to optimize ply layup for anisotropic material behavior.</p>
+
+                <h3>Analysis Approach</h3>
+                <ul>
+                    <li>Developed MATLAB solver for anisotropic material properties and stress analysis</li>
+                    <li>Automated datasheet scraping to extract material properties from manufacturer specifications</li>
+                    <li>Applied CLT to determine optimal fiber orientation and ply count for torque transmission</li>
+                    <li>Validated design against torsional stiffness and fatigue life requirements</li>
+                </ul>
+                
+                <div class="image-grid">
+                    <figure>
+                        <img src="img/CF_HS_1.jpg">
+                    </figure>
+                    <figure>
+                        <img src="img/CF_HS_2.jpg">
+                    </figure>
+                    <figure>
+                        <img src="img/CF_HS_3.jpg">
+                    </figure>
+                </div>
+            </section>
+
+            <div class="project-footer">
+                <a href="index.html#projects" class="back-link">← Back to Projects</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="project-script.js"></script>
+</body>
+</html>

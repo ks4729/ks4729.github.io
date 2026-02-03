@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Name - Kushaal Singh</title>
+    <title>ASPE Vinyl Record Challenge - Kushaal Singh</title>
     <link rel="stylesheet" href="project-style.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
             <a href="index.html" class="logo">← Kushaal Singh</a>
             <ul>
                 <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#experience">Experience</a></li>
                 <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#interests">Reading</a></li>
             </ul>
         </nav>
     </header>
@@ -21,12 +21,11 @@
     <div class="project-container">
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
-
             <div class="sidebar-info">
                 <h4>Project Info</h4>
                 <div class="info-item">
-                    <span class="label">Duration:</span>
-                    <span class="value">June 2025 - Present</span>
+                    <span class="label">Competition:</span>
+                    <span class="value">ASPE Student Challenge</span>
                 </div>
                 <div class="info-item">
                     <span class="label">Role:</span>
@@ -34,128 +33,106 @@
                 </div>
                 <div class="info-item">
                     <span class="label">Organization:</span>
-                    <span class="value">UT Austin</span>
+                    <span class="value">UT Austin - Nanoscale Design Lab</span>
                 </div>
                 <div class="info-item">
                     <span class="label">Technologies:</span>
-                    <span class="value">Python, MATLAB, Gradient Descent, Computer Vision</span>
+                    <span class="value">Signal Processing, Control Systems, Time-Frequency Analysis, MATLAB, Python</span>
                 </div>
             </div>
         </aside>
 
         <!-- Main Content -->
         <main class="project-content">
-            <h1>Volumetric 3D Printing Using Holographic Methods</h1>
-            <p class="lead">Developing advanced computational methods for volumetric photopolymerization using holographic light patterns</p>
+            <h1>Precision Vinyl Record Cutting System</h1>
+            <p class="lead">Developed a time-frequency error analysis framework for precision control of a vinyl record cutting system</p>
 
             <section id="overview">
-                <h2>Overview</h2>
-                <p>This project explores the cutting edge of additive manufacturing through volumetric 3D printing. Unlike traditional layer-by-layer approaches, volumetric printing uses holographic light patterns to cure an entire 3D object simultaneously within a vat of photopolymer resin.</p>
+                <h2>The Problem</h2>
+                <p>For the American Society of Precision Engineers Student Challenge, we built a precision positioning system to cut playable vinyl records. Traditional positional error metrics are meaningless for audio applications.</p>
                 
+                <p>A constant 10µm offset looks catastrophic to standard tracking metrics, but the audio is perfect. Meanwhile, a 1µm vibration at the wrong frequency creates audible distortion but looks fine in position space. We needed to analyze the system in the frequency domain where audio actually lives.</p>
                 <div class="image-grid">
                     <figure>
-                        <img src="img/Holography.jpg" alt="Holographic setup">
-                        <figcaption>Holographic projection system setup</figcaption>
+                        <img src="img/Error_twinkle_ffpi_num2.png" alt="Example Error Metrics">
+                        <figcaption>Analysis tracking window & figures</figcaption>
                     </figure>
-                    <!-- Add more images as needed -->
                 </div>
             </section>
 
-            <section id="problem">
-                <h2>Problem Statement</h2>
-                <p>Traditional 3D printing methods are limited by their sequential, layer-by-layer approach, which is time-consuming and can introduce structural weaknesses at layer boundaries. Volumetric printing promises to overcome these limitations, but presents significant computational challenges:</p>
-                <ul>
-                    <li>Calculating optimal holographic patterns for arbitrary 3D geometries</li>
-                    <li>Managing dissolved oxygen diffusion that inhibits photopolymerization</li>
-                    <li>Optimizing light intensity distribution throughout the volume</li>
-                    <li>Handling highly non-linear photochemical reactions</li>
-                </ul>
-            </section>
 
-            <section id="approach">
-                <h2>Technical Approach</h2>
-                <h3>Gradient Descent Optimization</h3>
-                <p>The core challenge is determining the holographic pattern that will produce the desired light intensity distribution. This is a highly intractable inverse problem. We developed a gradient descent algorithm that:</p>
-                <ul>
-                    <li>Models the forward propagation of light through the hologram</li>
-                    <li>Computes the error between desired and achieved intensity distributions</li>
-                    <li>Iteratively adjusts the holographic pattern to minimize this error</li>
-                </ul>
+            <section id="framework">
+                <h2>Time-Frequency Analysis Framework</h2>
+                
+                <p>I developed a three-metric framework using the Constant-Q Gabor Transform to characterize system performance. The CQT provides optimal time-frequency localization while matching the logarithmic structure of human hearing and musical scales.</p>
 
-                <h3>Oxygen Diffusion Modeling</h3>
-                <p>Dissolved oxygen acts as a polymerization inhibitor. We implemented a diffusion model to predict and control oxygen distribution during the printing process, enabling more precise control over the curing reaction.</p>
+                <h3>The Three Metrics</h3>
+
+                <p><strong>Gain Error:</strong> Quantifies amplitude reproduction accuracy at each frequency over time on a logarithmic scale. Mean and variance distinguish systematic equalization errors from time-varying compression or instability.</p>
+
+                <p><strong>Phase Distortion:</strong> For linear systems, pure delay produces constant group delay across frequency. I compute instantaneous phase differences, fit linear regression, and check for non-zero slope or high residuals indicating frequency-dependent phase distortion.</p>
+
+                <p><strong>Total Harmonic Distortion:</strong> Measures energy appearing at frequencies not in the input. After power normalization, THD reveals nonlinearities from hysteresis, clipping, and thermal effects.</p>
 
                 <div class="callout">
-                    <h4>Key Innovation</h4>
-                    <p>Our approach combines physical modeling of light propagation with machine learning-inspired optimization techniques, achieving significantly faster convergence than traditional methods.</p>
+                    <h4>Why This Matters</h4>
+                    <p>Standard Fourier analysis assumes stationary signals, which breaks down for music. The CQT uses variable window lengths (longer at low frequencies, shorter at high frequencies) to provide the right resolution where it's needed.</p>
                 </div>
             </section>
 
-            <section id="implementation">
-                <h2>Implementation Details</h2>
-                <p>The system was implemented in Python with MATLAB for numerical analysis. Key components include:</p>
+            <section id="control">
+                <h2>Control Implementation</h2>
                 
-                <h3>Software Stack</h3>
+                <p>The diagnostic framework identified a resonance at C3 (130.8 Hz) where the controller struggled. I implemented two strategies:</p>
+
                 <ul>
-                    <li><strong>Python:</strong> Primary development language for optimization algorithms</li>
-                    <li><strong>NumPy/SciPy:</strong> Numerical computations and optimization</li>
-                    <li><strong>MATLAB:</strong> Complex optical simulations and visualization</li>
-                    <li><strong>Computer Vision:</strong> Real-time monitoring of polymerization process</li>
+                    <li>Feedforward control to improve amplitude matching and reduce phase-based delay</li>
+                    <li>Resonant noise cancellation by commanding a sine wave at the natural frequency</li>
                 </ul>
 
-                <div class="code-block">
-                    <pre><code># Simplified gradient descent pseudocode
-for iteration in range(max_iterations):
-    # Forward propagate through hologram
-    achieved_intensity = propagate(hologram_pattern)
-    
-    # Calculate error
-    error = target_intensity - achieved_intensity
-    
-    # Update hologram pattern
-    gradient = compute_gradient(error)
-    hologram_pattern -= learning_rate * gradient</code></pre>
-                </div>
+                <p>For song selection, we avoided the resonance entirely by choosing material without C3 content.</p>
             </section>
 
             <section id="results">
-                <h2>Results & Achievements</h2>
-                <p>Our research has yielded several significant improvements:</p>
+                <h2>Results</h2>
                 
                 <div class="results-grid">
                     <div class="result-card">
-                        <h4>50% Faster</h4>
-                        <p>Convergence speed compared to baseline methods</p>
+                        <h4>-16ms → -0.2ms</h4>
+                        <p>Time delay reduction</p>
                     </div>
                     <div class="result-card">
-                        <h4>95% Accuracy</h4>
-                        <p>Match between target and achieved geometry</p>
+                        <h4>±9.27dB → ±6.7dB</h4>
+                        <p>Gain variance improvement</p>
                     </div>
                     <div class="result-card">
-                        <h4>10x Resolution</h4>
-                        <p>Improved feature resolution in printed objects</p>
+                        <h4>C3 at 130.8 Hz</h4>
+                        <p>Resonance identified and mitigated</p>
                     </div>
                 </div>
 
-                <p>These improvements demonstrate the potential for volumetric printing to become a viable alternative to traditional additive manufacturing methods.</p>
+                <p>Met target specifications of ≤2ms delay and ±2dB gain error. Successfully cut a playable vinyl record. THD remained above target due to mechanical limitations including hysteresis and thermal deflection at the scribe contact point.</p>
+
+                <p>The framework also enables rapid mechanical diagnosis. Hysteresis produces odd-order harmonics, thermal drift creates time-varying gain, and mechanical deflection shows resonant peaks at natural frequencies.</p>
             </section>
 
-            <section id="future">
-                <h2>Future Directions</h2>
-                <p>Ongoing work focuses on several key areas:</p>
-                <ul>
-                    <li>Real-time adaptive optimization during the printing process</li>
-                    <li>Integration with multi-material systems</li>
-                    <li>Scaling to larger print volumes</li>
-                    <li>Development of specialized photopolymer formulations</li>
-                </ul>
+            <section id="documentation">
+                <h2>Full Technical Report</h2>
+                <p>Complete mathematical derivations and diagnostic procedures:</p>
+                
+                <div class="callout">
+                    <a href="ASPE_Student_Challenge___Comprehensive_Error_Report.pdf" class="report-link" download>
+                        <div class="report-icon">📄</div>
+                        <div class="report-details">
+                            <h4>Download Complete Report</h4>
+                        </div>
+                        <div class="download-arrow">→</div>
+                    </a>
+                </div>
             </section>
 
             <div class="project-footer">
                 <a href="index.html#projects" class="back-link">← Back to Projects</a>
-                <div class="share-buttons">
-                    <!-- Add share buttons if needed -->
-                </div>
             </div>
         </main>
     </div>

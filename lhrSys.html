@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LHR System Design - Kushaal Singh</title>
+    <link rel="stylesheet" href="project-style.css">
+    <style>
+        /* Custom styles for flowchart page */
+        .flowchart-container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+
+        .flowchart-section {
+            margin: 2rem 0;
+        }
+
+        .flowchart-image {
+            width: 100%;
+            max-width: 1000px;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .process-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .process-card h4 {
+            margin: 0 0 0.75rem 0;
+            color: #667eea;
+        }
+
+        .process-card p {
+            margin: 0;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .flow-arrow {
+            text-align: center;
+            font-size: 2rem;
+            color: #667eea;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">← Kushaal Singh</a>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#interests">Reading</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="project-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-info">
+                <h4>Project Info</h4>
+                <div class="info-item">
+                    <span class="label">Team:</span>
+                    <span class="value">Longhorn Racing Electric</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Role:</span>
+                    <span class="value">Drivetrain Lead</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Focus:</span>
+                    <span class="value">System Architecture</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="project-content">
+            <h1>System Design & Integration</h1>
+            <p class="lead">Let me walk you through some exciting decision analysis I did with the rest of the team</p>
+
+            <section id="overview">
+                <h2>Brakes System Architecture Integration with Drivetrain & Electronics</h2>
+                <p>I can't claim full credit, but I was a key part in devloping this exciting new architecture for a FSAE competition vehicle</p>
+            </section>
+
+            <div class="flowchart-container">
+                <section class="flowchart-section">
+                    <h2>Design Process Flow</h2>
+                    
+                    <!-- Replace this image src with your actual flowchart -->
+                    <!-- <img src="img/flowchart.png" alt="System design flowchart" class="flowchart-image"> -->
+                    
+                    <div class="process-grid">
+                        <div class="process-card">
+                            <h4>Requirements Definition</h4>
+                            <p>At the highest level, produce the fastest car for an endurance event (22km)</p>
+                            <p>Analysis has shown that a car with regenerative breaking (regen) will be lighter & faster by maintaining peak motor power for longer</p>
+                            <p>Regen is limited because of increased heating in the battery</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-arrow">↓</div>
+
+                    <div class="process-card">
+                        <h4>Thermals & Battery</h4>
+                        <p>To enable regen, the thermals and battery systems integrated a liquid cooled, flat battery pack. </p>
+                        <p>However, regen can't be done in the beginning of an event because the battery needs to drain a little first. Therefore, regen is enabled only for the latter portion of a race</p>
+                        <p>Regen turning on part way through means that the mechanical brakes are not needed throughout the entirety of the race</p>
+                    </div>
+
+                    <div class="flow-arrow">↓</div>
+
+                    <div class="process-card">
+                        <h4>Line Lock</h4>
+                        <p>We use a line lock to "turn off" the mechanical brakes partway through a race and maximize regen, which maximizes charging the battery. </p>
+                        <p>Mechanical brakes and regen have different effects on how the car steers, so switching from one to another fundamentally changes the "feel" of the car</p>
+                    </div>
+
+                    <div class="flow-arrow">↓</div>
+
+                    <div class="process-card">
+                        <h4>Single Brake</h4>
+                        <p>If we have a single brake, mechanical brakes and regen have the same effect on the car, meaning the car is consistent to drive. A driver can adapt to a consistent car, they can't work with an inconsistent car</p>
+                        <p>A brake on the differential will have high MOI</p>
+                    </div>
+
+                    <div class="flow-arrow">↓</div>
+
+                    <div class="process-card">
+                        <h4>Brake on the Motor</h4>
+                        <p>If we place the brake on the motor instead of the differential as is traditionally done with single brake cars, we can use the transmission of the car to allow for a lighter brakes system. </p>
+                    </div>
+                </section>
+
+                
+            <div class="image-grid">
+                <figure>
+                    <img src="img/motorBrakes.png" alt="Motor with attached Brake">
+                    <figcaption>The motor assembly, including a brake</figcaption>
+                </figure>
+            </div>
+
+            <div class="project-footer">
+                <a href="index.html#projects" class="back-link">← Back to Projects</a>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="project-script.js"></script>
+</body>
+</html>
