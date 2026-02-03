@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semiconductor Process Control - Kushaal Singh</title>
+    <link rel="stylesheet" href="project-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">← Kushaal Singh</a>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#interests">Reading</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="project-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-info">
+                <div class="info-item">
+                    <span class="label">Focus Areas:</span>
+                    <span class="value">Virtual Metrology, Lithography Overlay Control, ML</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Technologies:</span>
+                    <span class="value">MATLAB, Ridge Regression, ARMA, Neural Networks</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="project-content">
+            <h1>Advanced Process Control for Semiconductor Manufacturing</h1>
+            <p class="lead">Machine learning and statistical modeling for virtual metrology and lithography overlay control in nanoscale fabrication</p>
+
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>Developed advanced process control algorithms for semiconductor manufacturing, focusing on two critical applications: virtual metrology for critical dimension prediction and predictive overlay control for photolithography. Work addresses real challenges in high-volume manufacturing where inline metrology is expensive and overlay errors at sub-nanometer scale directly impact yield.</p>
+            </section>
+
+            <section id="virtual-metrology">
+                <h2>Virtual Metrology for Critical Dimension Prediction</h2>
+                
+                <p>Built ridge regression models to predict critical dimensions from sensor data, reducing the need for costly inline metrology. Worked with datasets containing 50 sensor channels across 10,000+ wafers.</p>
+
+                <h3>Technical Approach</h3>
+                <ul>
+                    <li>Implemented computationally efficient ridge regression using eigendecomposition to avoid matrix inversion bottlenecks</li>
+                    <li>Optimized regularization parameter λ using 5-fold cross-validation with grid search over log-spaced values</li>
+                    <li>Developed local regression models using Mahalanobis distance to identify 1000 nearest neighbors per test sample</li>
+                    <li>Used Moore-Penrose pseudo-inverse to handle singularity in covariance matrices</li>
+                </ul>
+
+                <div class="callout">
+                    <h4>Key Implementation Detail</h4>
+                    <p>Standard ridge regression requires inverting (X'X + λI). By eigendecomposing X'X = QΛQ', this becomes Q(Λ + λI)⁻¹Q', where the diagonal matrix is trivially inverted. This reduced computational complexity significantly for large sensor arrays.</p>
+                </div>
+
+                <h3>Model Performance</h3>
+                <p>Global model with optimized λ = 129.16 achieved R² = -0.55, RMSE = 0.59. Local models showed R² = -0.29, RMSE = 0.69. Negative R² values indicated the dataset's complexity exceeded linear model capacity, motivating exploration of neural network approaches.</p>
+
+                <h3>Neural Network Extensions</h3>
+                <p>Explored CNN and MLP architectures to capture nonlinear sensor relationships. Implemented MLP with skip connections, batch normalization, and dropout regularization (128 → 64 hidden units with 20% dropout). Used Adam optimizer with piecewise learning rate decay. While neural networks didn't outperform ridge regression on this dataset, the implementation demonstrated understanding of modern ML techniques for process control.</p>
+            </section>
+
+            <section id="overlay-control">
+                <h2>Lithography Overlay Control</h2>
+                
+                <p>Developed predictive control system for photolithography overlay using time series analysis. Overlay errors in x and y directions are modeled using Zernike polynomials with 22 controllable parameters (inter-field and intra-field). At sub-nanometer scale, actuator uncertainties introduce stochastic biases that must be predicted and compensated.</p>
+
+                <h3>Problem Formulation</h3>
+                <p>Overlay errors ox(X,Y,x,y) and oy(X,Y,x,y) decompose into inter-field (die-to-die) and intra-field (within-die) components modeled by Zernike polynomials. Actuator biases c_k cause realized parameters u_k to deviate from commanded values u_k^ref:</p>
+                
+                <p style="text-align: center; font-style: italic; margin: 1rem 0;">u_k = u_k^ref + c_k</p>
+
+                <p>The control strategy predicts future bias c_k+1 and commands the negative value to compensate.</p>
+
+                <h3>Implementation</h3>
+                <ul>
+                    <li>Fitted Zernike polynomial regression models to 220 marker locations across 69 wafers using pseudo-inverse for numerical stability</li>
+                    <li>Extracted realized parameter vectors u_k and computed biases c_k = u_k - u_k^ref for each wafer</li>
+                    <li>Built ARMA time series models for all 22 bias components using statistical F-tests (α = 0.95) for model selection</li>
+                    <li>Generated one-step-ahead forecasts for wafer 70 and commanded u_70^ref = -c_predicted</li>
+                </ul>
+
+                <h3>Results</h3>
+                <p>Successfully demonstrated bias prediction and feedforward compensation. For component T_x, bias reduced from -0.0052 (wafer 69) to 0.0017 (wafer 70) after compensation. Component T_y remained centered near zero. The framework enables continuous learning where models can be retrained with each new wafer to maintain prediction accuracy as process drift occurs.</p>
+            </section>
+
+            <section id="impact">
+                <h2>Semiconductor Manufacturing Impact</h2>
+                
+                <div class="results-grid">
+                    <div class="result-card">
+                        <h4>10,000+ Wafers</h4>
+                        <p>Analyzed for virtual metrology model development</p>
+                    </div>
+                    <div class="result-card">
+                        <h4>22 Parameters</h4>
+                        <p>Controlled simultaneously in overlay system</p>
+                    </div>
+                    <div class="result-card">
+                        <h4>220 Markers</h4>
+                        <p>Per-wafer overlay measurements processed</p>
+                    </div>
+                </div>
+
+                <h3>Industry Relevance</h3>
+                <p>Virtual metrology reduces inline measurement costs and enables higher sampling rates for process monitoring. Predictive overlay control is critical for advanced nodes where overlay budgets are measured in nanometers and traditional run-to-run control is insufficient due to tool drift.</p>
+
+                <p>Skills demonstrated include L2 regularization, eigendecomposition for numerical efficiency, Mahalanobis distance metrics, time series forecasting with ARMA, feedforward control, and deep learning for regression. Direct applications in high-volume manufacturing environments at companies like TSMC, Samsung, and Intel.</p>
+            </section>
+
+            <div class="project-footer">
+                <a href="index.html#projects" class="back-link">← Back to Projects</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="project-script.js"></script>
+</body>
+</html>
